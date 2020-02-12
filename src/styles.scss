@@ -14,6 +14,7 @@
 // hue. Available color palettes: https://material.io/design/color/
 $warriorship-primary: mat-palette($mat-indigo);
 $warriorship-accent: mat-palette($mat-pink, A200, A100, A400);
+$warriorship-background: mat-palette($mat-gray, 800);
 
 // The warn palette is optional (defaults to red).
 $warriorship-warn: mat-palette($mat-red);
@@ -31,4 +32,4 @@ html, body {
   background-image: url("http://thepatternlibrary.com/img/ao.gif");
   background-repeat: repeat;
 }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; color: white; }
