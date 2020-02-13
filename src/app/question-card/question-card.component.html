@@ -31,8 +31,8 @@
     <mat-card-actions>
       <button (click)="saveAnswer()" *ngIf="question.id == 1" mat-raised-button color="accent" id="home" routerLink="/" routerLinkActive="active"><mat-icon>home</mat-icon>Home</button>
       <button *ngIf="question.id > 1" mat-raised-button color="accent" id="back"  [routerLink]="['/questions', question.id - 1]" routerLinkActive="active"><mat-icon>arrow_back</mat-icon>Back</button>
-      <button (click)="saveAnswer()" *ngIf="question.id < numOfQuestions" mat-raised-button color="accent" id="next" [routerLink]="['/questions', question.id + 1]" routerLinkActive="active">Next<mat-icon>arrow_forward</mat-icon></button>
-      <button (click)="saveAnswer()" *ngIf="question.id == numOfQuestions" mat-raised-button color="accent" id="done" routerLink="/results" routerLinkActive="active">Done<mat-icon>done_all</mat-icon></button>
+      <button (click)="saveAnswer()" *ngIf="question.id < numOfQuestions && questionAnswer != null" mat-raised-button color="accent" id="next" [routerLink]="['/questions', question.id + 1]" routerLinkActive="active">Next<mat-icon>arrow_forward</mat-icon></button>
+      <button (click)="saveAnswer()" *ngIf="question.id == numOfQuestions && questionAnswer != null" mat-raised-button color="accent" id="done" routerLink="/results" routerLinkActive="active">Done<mat-icon>done_all</mat-icon></button>
     </mat-card-actions>
   </mat-card>
 </div>

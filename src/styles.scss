@@ -30,5 +30,11 @@ $warriorship-theme: mat-dark-theme($warriorship-primary, $warriorship-accent, $w
 html, body {
   background-image: url("http://thepatternlibrary.com/img/ao.gif");
   background-repeat: repeat;
+  height: 100%;
 }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; color: white; }
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; color: white;}

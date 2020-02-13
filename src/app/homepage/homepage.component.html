@@ -1,30 +1,18 @@
-<div class="homepage"
-      fxLayout="column"
-      fxFlexFill
-      style="color: white; ">
-  <div class="content"
-       fxLayout="column">
+
+
 <!--       style="width: 80%; max-width: 1200px; display: block; margin: 0 auto;">-->
 
-    <!--Title and author names-->
-    <div class="title"
-          fxLayout="column"
-          style="max-width: 100%; padding-bottom: 30px;">
-      <h1 style="text-align: center">Warriorship & Honour Within World Cultures</h1>
-    </div>
+<!--Title and author names-->
+  <h1>Warriorship & Honour Within World Cultures</h1>
 
-    <!--Image of the knight-->
-    <!--Text along with the begin quiz button-->
-    <div  class="home-content"
-          fxFlex="30"
-          style="max-width: 70%; display: block; margin: 0 auto;">
-      <img style="padding-bottom: 20px; display: block; margin: 0 auto; width: 80%;" src="../../assets/images/homepage.jpg" alt="A warrior on a horse with a sunset in the background">
-      <h2 style="text-align: center">What Kind of Warrior Are You?</h2>
+<!--Image of the knight-->
+<!--Text along with the begin quiz button-->
+<div>
+  <img src="../../assets/images/homepage.jpg" alt="A warrior on a horse with a sunset in the background" />
+  <h2>What Kind of Warrior Are You?</h2>
 
-      <button mat-raised-button color="accent" style="width: 200px; height: 75px; font-size: 20px; display: block; margin: 0 auto;" [routerLink]="['/questions', 1]" routerLinkActive="active">Start Quiz</button>
+  <button mat-raised-button color="accent" [routerLink]="['/questions', 1]" routerLinkActive="active">Start Quiz</button>
 
-    </div>
-  </div>
 </div>
 
 

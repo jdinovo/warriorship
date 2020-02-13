@@ -1,3 +1,22 @@
-mat-toolbar {
+header {
   margin-bottom: 2%;
 }
+main {
+  display: block;
+  padding-bottom: 100px;
+}
+
+#footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+//footer mat-toolbar a {
+//  display: block;
+//  float: right;
+//}

@@ -1,6 +1,13 @@
-<mat-toolbar color="primary">
-  <span routerLink="/">Warriorship</span>
-</mat-toolbar>
-<div [@routeAnimations]="prepareRoute(outlet)">
+<header>
+  <mat-toolbar color="primary">
+    <span routerLink="/">Warriorship</span>
+  </mat-toolbar>
+</header>
+<main [@routeAnimations]="prepareRoute(outlet)">
   <router-outlet #outlet="outlet"></router-outlet>
-</div>
+</main>
+
+<mat-toolbar id="footer">
+  <span>&copy; 2020 Chris Dias & James DiNovo</span>
+  <a mat-button routerLink="/credits" routerLinkActive>Credits</a>
+</mat-toolbar>
