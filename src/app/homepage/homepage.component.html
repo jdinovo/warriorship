@@ -1,43 +1,18 @@
-<div class="homepage"
-      fxLayout="column"
-      fxFlexFill
-      style="color: white; ">
-  <div class="content"
-       fxLayout="column">
+
+
 <!--       style="width: 80%; max-width: 1200px; display: block; margin: 0 auto;">-->
 
-    <!--Title and author names-->
-    <div class="title"
-          fxLayout="column"
-          style="max-width: 100%;">
-      <h1 style="text-align: center">Warriorship & Honour Within World Cultures</h1>
-      <h2 style="text-align: center; padding-bottom: 30px;">By: Chris Dias & James DiNovo</h2>
-    </div>
+<!--Title and author names-->
+  <h1>Warriorship & Honour Within World Cultures</h1>
 
-    <!--Image of the knight-->
-    <!--Text along with the begin quiz button-->
-    <div  class="home-content"
-          fxFlex="30"
-          style="max-width: 70%; display: block; margin: 0 auto;">
-      <img style="padding-bottom: 20px; display: block; margin: 0 auto; width: 100%;" src="../../assets/images/homepage.jpg" alt="A warrior on a horse with a sunset in the background">
-      <h2 style="text-align: center">What Kind of Warrior Are You?</h2>
-      <p>A warrior is one who</p>
-      <ul>
-        <li>understands, values and possess honour</li>
-        <li>recognizes that her/his abilities carry with them a responsibility</li>
-        <li>trains diligently in the arts and sciences of survival and defense</li>
-      </ul>
-      <p>- Prof./Sifu Jay McCoy</p>
+<!--Image of the knight-->
+<!--Text along with the begin quiz button-->
+<div>
+  <img src="../../assets/images/homepage.jpg" alt="A warrior on a horse with a sunset in the background" />
+  <h2>What Kind of Warrior Are You?</h2>
 
-      <button mat-raised-button color="accent" style="width: 200px; height: 75px; font-size: 20px; display: block; margin: 0 auto;">Start Quiz</button>
+  <button mat-raised-button color="accent" [routerLink]="['/questions', 1]" routerLinkActive="active">Start Quiz</button>
 
-      <h2>Credits</h2>
-      <ul>
-        <li>http://thepatternlibrary.com/img/ao.gif</li>
-        <li>https://pixabay.com/photos/knight-warrior-horse-soldier-war-2565957/</li>
-      </ul>
-    </div>
-  </div>
 </div>
 
 

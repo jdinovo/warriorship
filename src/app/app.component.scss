@@ -1,0 +1,48 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+main {
+  margin: 1% 0;
+}
+
+mat-sidenav {
+  text-align: center;
+  width: 300px;
+}
+
+.mat-sidenav-container {
+  flex: 1 0 auto;
+  background: none;
+}
+
+.mat-sidenav-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100% !important;
+}
+
+#footer {
+  flex-shrink: 0;
+
+  //  position: relative;
+//  left: 0;
+//  bottom: 0;
+  width: 100%;
+}
+
+#footer span {
+  font-size: 0.7em;
+}
+
+//footer mat-toolbar a {
+//  display: block;
+//  float: right;
+//}
