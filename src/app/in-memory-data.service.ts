@@ -12,7 +12,6 @@ export class InMemoryDataService implements InMemoryDbService {
 
   createDb() {
     const questions: Question[] = QUESTIONS;
-    return {questions}
-      ;
+    return {questions};
   }
 }

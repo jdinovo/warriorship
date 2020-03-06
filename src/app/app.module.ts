@@ -20,7 +20,10 @@ import { InMemoryDataService } from './in-memory-data.service';
 import {MatCardModule} from '@angular/material/card';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {FormsModule} from '@angular/forms';
-import {MatRadioModule} from '@angular/material/radio';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,8 @@ import {MatRadioModule} from '@angular/material/radio';
     HomepageComponent,
     ResultsComponent,
     NotFoundComponent,
-    CreditsComponent
+    CreditsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
@@ -42,6 +46,7 @@ import {MatRadioModule} from '@angular/material/radio';
       {path: 'questions/:id', component: QuestionCardComponent, data: {animation: 'questionCard'}},
       {path: 'results', component: ResultsComponent},
       {path: 'credits', component: CreditsComponent},
+      {path: 'about', component: AboutComponent},
       {path: '', component: HomepageComponent},
       {path: '**', component: NotFoundComponent}
     ]),
@@ -52,7 +57,9 @@ import {MatRadioModule} from '@angular/material/radio';
     MatCardModule,
     MatToolbarModule,
     FormsModule,
-    MatRadioModule
+    MatProgressBarModule,
+    MatGridListModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]

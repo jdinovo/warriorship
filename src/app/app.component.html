@@ -1,13 +1,43 @@
-<header>
-  <mat-toolbar color="primary">
-    <span routerLink="/">Warriorship</span>
-  </mat-toolbar>
-</header>
-<main [@routeAnimations]="prepareRoute(outlet)">
-  <router-outlet #outlet="outlet"></router-outlet>
-</main>
+<div id="container">
+  <header>
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <span>
+          <a mat-icon-button (click)="sidenav.toggle()"><mat-icon>menu</mat-icon></a>
+        </span>
+        <h1>Warriorship</h1>
+      </mat-toolbar-row>
+    </mat-toolbar>
+  </header>
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav fixedInViewport fixedTopGap="56"mode="over" (keydown.escape)="sidenav.close()" >
 
-<mat-toolbar id="footer">
-  <span>&copy; 2020 Chris Dias & James DiNovo</span>
-  <a mat-button routerLink="/credits" routerLinkActive>Credits</a>
-</mat-toolbar>
+      <!--    <p><button mat-button (click)="close()">Toggle</button></p>-->
+      <mat-nav-list role="list">
+        <mat-list-item routerLink="/" (click)="sidenav.close()">
+          <mat-icon matListIcon>home</mat-icon>
+          <h3 matLine>Quiz</h3>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item routerLink="/about" (click)="sidenav.close()">
+          <mat-icon matListIcon>menu_book</mat-icon>
+          <h3 matLine>About</h3>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item routerLink="/credits" (click)="sidenav.close()">
+          <mat-icon matListIcon>list</mat-icon>
+          <h3 matLine>Credits</h3>
+        </mat-list-item>
+      </mat-nav-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+      <main [@routeAnimations]="prepareRoute(outlet)">
+        <router-outlet #outlet="outlet"></router-outlet>
+      </main>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  <mat-toolbar color="primary" id="footer">
+    <span>&copy; 2020 Chris Dias & James DiNovo</span>
+  </mat-toolbar>
+</div>

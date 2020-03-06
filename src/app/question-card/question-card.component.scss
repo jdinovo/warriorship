@@ -1,6 +1,25 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
 #wrapper {
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
+}
+
+#q0 {
+  background-color: mat-color(mat-palette($mat-red, 800));
+}
+
+#q1 {
+  background-color: mat-color(mat-palette($mat-blue, 800));
+}
+
+#q2 {
+  background-color: mat-color(mat-palette($mat-green, 800));
+}
+
+#q3 {
+  background-color: mat-color(mat-palette($mat-yellow, 800));
 }
 
 button {
@@ -13,35 +32,37 @@ mat-card-actions {
   align-content: flex-end;
 }
 
-#next, #done {
-  align-self: flex-end;
-  margin: 0;
-}
-
 mat-card-content {
   width: 100%;
 }
 
-.answerRows {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.answer-radio-group {
+.answer-button {
+  font-size: 1.6em !important;
+  height: 100%;
+  white-space: normal !important;
   width: 100%;
-  //display: flex;
-  //flex-direction: column;
-  //margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //margin: 5px;
 }
 
-.answer-radio-button {
-  width: 50%;
-  margin: 5px;
+
+.answer-button > * {
+  white-space: normal !important;
 }
 
-@media screen and (max-width:980px) {
-  .answerRows {
-    flex-direction: column;
+mat-card {
+  margin: 0 auto;
+}
+
+mat-progress-bar {
+  padding: 0;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:1280px) {
+  #wrapper {
+    width: 98%;
   }
 }
