@@ -1,21 +1,22 @@
 <div id="container">
+  <mat-progress-bar *ngIf="loading" color="accent" mode="indeterminate"></mat-progress-bar>
   <header>
     <mat-toolbar color="primary">
       <mat-toolbar-row>
         <span>
-          <a mat-icon-button (click)="sidenav.toggle()"><mat-icon>menu</mat-icon></a>
+          <a mat-icon-button (click)="sidenav.toggle()"><mat-icon>{{sidenav.opened ? 'close' : 'menu'}}</mat-icon></a>
         </span>
-        <h1>Warriorship</h1>
+        <h1 routerLink="/">Warriorship</h1>
       </mat-toolbar-row>
     </mat-toolbar>
   </header>
   <mat-sidenav-container>
-    <mat-sidenav #sidenav fixedInViewport fixedTopGap="56"mode="over" (keydown.escape)="sidenav.close()" >
+    <mat-sidenav #sidenav mode="over" (keydown.escape)="sidenav.close()" >
 
       <!--    <p><button mat-button (click)="close()">Toggle</button></p>-->
       <mat-nav-list role="list">
         <mat-list-item routerLink="/" (click)="sidenav.close()">
-          <mat-icon matListIcon>home</mat-icon>
+          <mat-icon matListIcon>ballot</mat-icon>
           <h3 matLine>Quiz</h3>
         </mat-list-item>
         <mat-divider></mat-divider>
@@ -32,8 +33,11 @@
     </mat-sidenav>
 
     <mat-sidenav-content>
-      <main [@routeAnimations]="prepareRoute(outlet)">
-        <router-outlet #outlet="outlet"></router-outlet>
+<!--      <main [@routeAnimations]="prepareRoute(outlet)">-->
+<!--        <router-outlet #outlet="outlet"></router-outlet>-->
+<!--      </main>-->
+      <main>
+        <router-outlet></router-outlet>
       </main>
     </mat-sidenav-content>
   </mat-sidenav-container>

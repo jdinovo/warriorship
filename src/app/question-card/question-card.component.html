@@ -41,5 +41,4 @@
       <button *ngIf="question.id > 1" mat-raised-button color="accent" id="back"  [routerLink]="['/questions', question.id - 1]" routerLinkActive="active"><mat-icon>arrow_back</mat-icon>Back</button>
     </mat-card-actions>
   </mat-card>
-  <mat-progress-bar *ngIf="loading" color="primary" mode="indeterminate"></mat-progress-bar>
 </div>

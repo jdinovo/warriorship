@@ -46,8 +46,7 @@ export class QuestionCardComponent implements OnInit {
     ]);
 
     layoutChanges.subscribe(result => {
-      console.log(result);
-      if(result.breakpoints['(max-width: 600px)']) {
+      if (result.breakpoints['(max-width: 600px)']) {
         this.numOfCols = 1;
         this.rowHeight = '2:1';
       } else if (result.breakpoints['(max-width: 980px)']) {
