@@ -11,27 +11,24 @@
     </mat-toolbar>
   </header>
   <mat-sidenav-container>
-    <mat-sidenav #sidenav mode="over" (keydown.escape)="sidenav.close()" >
-
-      <!--    <p><button mat-button (click)="close()">Toggle</button></p>-->
+    <mat-sidenav #sidenav>
       <mat-nav-list role="list">
-        <mat-list-item routerLink="/" (click)="sidenav.close()">
+        <mat-list-item routerLink="/" routerLinkActive (click)="sidenav.close()">
           <mat-icon matListIcon>ballot</mat-icon>
           <h3 matLine>Quiz</h3>
         </mat-list-item>
         <mat-divider></mat-divider>
-        <mat-list-item routerLink="/about" (click)="sidenav.close()">
+        <mat-list-item routerLink="/about" routerLinkActive (click)="sidenav.close()">
           <mat-icon matListIcon>menu_book</mat-icon>
           <h3 matLine>About</h3>
         </mat-list-item>
         <mat-divider></mat-divider>
-        <mat-list-item routerLink="/credits" (click)="sidenav.close()">
+        <mat-list-item routerLink="/credits" routerLinkActive (click)="sidenav.close()">
           <mat-icon matListIcon>web</mat-icon>
           <h3 matLine>Credits</h3>
         </mat-list-item>
       </mat-nav-list>
     </mat-sidenav>
-
     <mat-sidenav-content>
 <!--      <main [@routeAnimations]="prepareRoute(outlet)">-->
 <!--        <router-outlet #outlet="outlet"></router-outlet>-->

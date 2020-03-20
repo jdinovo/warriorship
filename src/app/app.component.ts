@@ -16,7 +16,6 @@ export class AppComponent {
 
   constructor(private questionsService: QuestionsService, private router: Router) {
 
-    this.loading = true;
     this.router.events.subscribe((event: RouterEvent) => {
       if (event instanceof NavigationStart) {
         this.loading = true;

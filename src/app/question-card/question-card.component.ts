@@ -32,11 +32,13 @@ export class QuestionCardComponent implements OnInit {
         c => {
           this.question = c;
           this.questionAnswer = c.selectedAnswer;
-        });
+        }
+      );
       this.questionsService.getQuestions().subscribe(
         c => {
           this.numOfQuestions = c.length;
-        });
+        }
+      );
     });
 
     // for adjusting button layout based on screen size
@@ -65,7 +67,7 @@ export class QuestionCardComponent implements OnInit {
       this.question.selectedAnswer = id;
       this.questionsService.updateQuestion(this.question).subscribe(
         c => {
-          console.log(c);
+          console.log(this.question);
           this.loading = false;
         });
 
