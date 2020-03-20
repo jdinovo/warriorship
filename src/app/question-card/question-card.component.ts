@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
 import {QuestionsService} from '../questions.service';
 import {Question} from '../question-helper';
@@ -21,10 +21,26 @@ export class QuestionCardComponent implements OnInit {
   numOfCols = 2;
   rowHeight = '2:1';
 
-  constructor(private router: Router, private route: ActivatedRoute, private questionsService: QuestionsService, private breakpointObserver: BreakpointObserver) { }
+  pointA: number;
+  pointB: number;
+  pointC: number;
+  pointD: number;
+  winningResult: number;
+  @Output() quizResultsEvent = new EventEmitter<number>();
+
+  constructor(private router: Router,
+              private route: ActivatedRoute,
+              private questionsService: QuestionsService,
+              private breakpointObserver: BreakpointObserver) { }
 
 
   ngOnInit() {
+    this.pointA = 0;
+    this.pointB = 0;
+    this.pointC = 0;
+    this.pointD = 0;
+    this.winningResult = 0;
+
     this.questionAnswer = null;
     this.route.paramMap.subscribe(params => {
       this.id = +params.get('id');
@@ -65,10 +81,16 @@ export class QuestionCardComponent implements OnInit {
     if (!this.loading) {
       this.loading = true;
       this.question.selectedAnswer = id;
+      this.addPoint(id);
       this.questionsService.updateQuestion(this.question).subscribe(
         c => {
           console.log(this.question);
           this.loading = false;
+
+          console.log('A:' + this.pointA);
+          console.log('B:' + this.pointB);
+          console.log('C:' + this.pointC);
+          console.log('D:' + this.pointD);
         });
 
       if (this.id < this.numOfQuestions) {
@@ -76,6 +98,47 @@ export class QuestionCardComponent implements OnInit {
       } else {
         this.router.navigate(['/results']);
       }
+    }
+  }
+
+  addPoint(questionAnswer) {
+    if (questionAnswer === 0) {
+      this.pointA++;
+    } else if (questionAnswer === 1) {
+      this.pointB++;
+    } else if (questionAnswer === 2) {
+      this.pointC++;
+    } else if (questionAnswer === 3) {
+      this.pointD++;
+    } else {
+      console.error('Incorrect questionAnswer');
+    }
+    this.calculateHighestTally();
+  }
+
+  calculateHighestTally() {
+    if (this.pointA > this.pointB &&
+      this.pointA > this.pointC &&
+      this.pointA > this.pointD) {
+      this.winningResult = 0;
+    } else if (this.pointB > this.pointA &&
+      this.pointB > this.pointC &&
+      this.pointB > this.pointD) {
+      this.winningResult = 1;
+    } else if (this.pointC > this.pointA &&
+      this.pointC > this.pointB &&
+      this.pointC > this.pointD) {
+      this.winningResult = 2;
+    } else if (this.pointD > this.pointA &&
+      this.pointD > this.pointB &&
+      this.pointD > this.pointC) {
+      this.winningResult = 3;
+    }
+
+    console.log('winning result so far:' + this.winningResult);
+    if (this.id === this.numOfQuestions) {
+      console.log('winningresult was emitted:' + this.winningResult);
+      this.quizResultsEvent.emit(this.winningResult);
     }
   }
 
