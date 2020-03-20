@@ -13,20 +13,21 @@
   <mat-sidenav-container>
     <mat-sidenav #sidenav>
       <mat-nav-list role="list">
-        <mat-list-item routerLink="/" routerLinkActive (click)="sidenav.close()">
+        <mat-list-item routerLink="/" style="height: 0; position: absolute"></mat-list-item><!-- consuming weird highlight of first element behaviour -->
+        <a mat-list-item routerLink="/" routerLinkActive (click)="sidenav.close()">
           <mat-icon matListIcon>ballot</mat-icon>
           <h3 matLine>Quiz</h3>
-        </mat-list-item>
+        </a>
         <mat-divider></mat-divider>
-        <mat-list-item routerLink="/about" routerLinkActive (click)="sidenav.close()">
+        <a mat-list-item routerLink="/about" routerLinkActive (click)="sidenav.close()">
           <mat-icon matListIcon>menu_book</mat-icon>
           <h3 matLine>About</h3>
-        </mat-list-item>
+        </a>
         <mat-divider></mat-divider>
-        <mat-list-item routerLink="/credits" routerLinkActive (click)="sidenav.close()">
+        <a mat-list-item routerLink="/credits" routerLinkActive (click)="sidenav.close()">
           <mat-icon matListIcon>web</mat-icon>
           <h3 matLine>Credits</h3>
-        </mat-list-item>
+        </a>
       </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content>

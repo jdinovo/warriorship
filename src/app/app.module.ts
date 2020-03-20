@@ -24,6 +24,7 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { AboutComponent } from './about/about.component';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -43,11 +44,11 @@ import { AboutComponent } from './about/about.component';
     MatButtonModule,
     MatListModule,
     RouterModule.forRoot([
-      {path: 'questions/:id', component: QuestionCardComponent, data: {animation: 'questionCard'}},
+      {path: '', component: HomepageComponent},
+      {path: 'questions/:id', component: QuestionCardComponent},
       {path: 'results', component: ResultsComponent},
       {path: 'credits', component: CreditsComponent},
       {path: 'about', component: AboutComponent},
-      {path: '', component: HomepageComponent},
       {path: '**', component: NotFoundComponent}
     ]),
     HttpClientModule,
@@ -59,7 +60,8 @@ import { AboutComponent } from './about/about.component';
     FormsModule,
     MatProgressBarModule,
     MatGridListModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

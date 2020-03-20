@@ -26,20 +26,6 @@ $warriorship-theme: mat-dark-theme($warriorship-primary, $warriorship-accent, $w
 // that you are using.
 @include angular-material-theme($warriorship-theme);
 
-$warriorship-primary: mat-palette($mat-blue-gray, 800);
-$warriorship-accent: mat-palette($mat-deep-orange, A200, A100, A400);
-
-// The warn palette is optional (defaults to red).
-$warriorship-warn: mat-palette($mat-red);
-
-// Create the theme object (a Sass map containing all of the palettes).
-$warriorship-theme: mat-dark-theme($warriorship-primary, $warriorship-accent, $warriorship-warn);
-
-// Include theme styles for core and each component used in your app.
-// Alternatively, you can import and @include the theme mixins for each component
-// that you are using.
-@include angular-material-theme($warriorship-theme);
-
 /* You can add global styles to this file, and also import other style files */
 html, body {
   //background-color: mat-color($mat-gray, 900);
