@@ -1,24 +1,31 @@
-import {AfterViewInit, Component, Input, OnInit, ViewChild} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {AnswersService} from '../answers.service';
-import {Question} from '../question-helper';
 import {Answer} from '../answer-helper';
-import {QuestionCardComponent} from '../question-card/question-card.component';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-results',
   templateUrl: './results.component.html',
   styleUrls: ['./results.component.scss']
 })
-export class ResultsComponent {
+export class ResultsComponent implements OnInit {
 
   result: number;
+  warrior: Answer;
 
-  @ViewChild(QuestionCardComponent) questionCard;
+  constructor(private answersService: AnswersService, private router: Router) { }
 
-  constructor() { }
+  ngOnInit() {
+    this.result = history.state.winner;
 
-  receiveResults($event) {
-    this.result = $event;
+    if (this.result === undefined) {
+      this.router.navigate(['/']);
+    } else {
+      this.answersService.getAnswerItem(this.result).subscribe(answer => {
+        console.log(answer);
+        this.warrior = answer;
+      });
+    }
   }
 
 }

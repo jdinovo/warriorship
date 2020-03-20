@@ -96,7 +96,7 @@ export class QuestionCardComponent implements OnInit {
       if (this.id < this.numOfQuestions) {
         this.router.navigate(['/questions', this.id + 1]);
       } else {
-        this.router.navigate(['/results']);
+        this.router.navigate(['/results'], { state: { winner: this.winningResult } });
       }
     }
   }

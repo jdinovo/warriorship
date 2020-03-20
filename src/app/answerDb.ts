@@ -2,9 +2,9 @@ import {Answer} from './answer-helper';
 
 export let ANSWERS: Answer[] = [
   {
-    id: 1,
+    id: 0,
     title: 'Monk',
-    image: 'src/assets/images/monk.jpg',
+    image: 'assets/images/monk.jpg',
     description: 'You are a monk at heart. You have a spiritual personality' +
       'with beliefs of your own. When it comes to work, you do what is right without shortcuts.' +
       'You are self-entitled and live your life in complete happiness.' +
@@ -15,9 +15,9 @@ export let ANSWERS: Answer[] = [
       'in handy for those future promotions.'
   },
   {
-    id: 2,
+    id: 1,
     title: 'Viking',
-    image: 'src/assets/images/viking.jpg',
+    image: 'assets/images/viking.jpg',
     description: 'You are a viking at heart. When your mind is set on a goal,' +
       'you will stop at nothing to achieve it. You have a drive unlike no other.' +
       'Sometimes you are irrational and will do whatever you please without rhyme or reason.' +
@@ -28,9 +28,9 @@ export let ANSWERS: Answer[] = [
       'dirty in the trenches. You will be successful in life if you keep working hard.'
   },
   {
-    id: 3,
+    id: 2,
     title: 'Knight',
-    image: 'src/assets/images/knight.jpg',
+    image: 'assets/images/knight.jpg',
     description: 'You are a knight at heart. You can be very simple but sometimes' +
       'you can be very complex as well. You tend to flip flop on decisions and that is normal.' +
       'You faced some tough decisions as a child that might have psychologically affected you,' +
@@ -43,9 +43,9 @@ export let ANSWERS: Answer[] = [
       'Your goal is to tell your beautiful stories to your future children and grandchildren.'
   },
   {
-    id: 4,
+    id: 3,
     title: 'Samurai',
-    image: 'src/assets/images/samurai.jpg',
+    image: 'assets/images/samurai.jpg',
     description: 'You are a samurai at heart. When it comes to group projects, you' +
       'are a team leader. You like to take control of everything happening in your life.' +
       'Sometimes this could be a disadvantage because some things are out of your control.' +
