@@ -1,15 +1,15 @@
-mat-card {
+.out-card {
   max-width: 50%;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 10px;
 }
 
-p {
+h3 {
   margin: 0;
 }
 
 @media only screen and (max-width: 980px) {
-  #main {
+  .out-card {
     max-width: 90%;
   }
 }

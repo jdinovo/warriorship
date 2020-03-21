@@ -12,7 +12,7 @@
   </header>
   <mat-sidenav-container>
     <mat-sidenav #sidenav>
-      <mat-nav-list role="list">
+      <mat-nav-list>
         <mat-list-item routerLink="/" style="height: 0; position: absolute"></mat-list-item><!-- consuming weird highlight of first element behaviour -->
         <a mat-list-item routerLink="/" routerLinkActive (click)="sidenav.close()">
           <mat-icon matListIcon>ballot</mat-icon>

@@ -1,4 +1,4 @@
-<mat-card id="main">
+<mat-card class="out-card">
   <mat-card-header>
       <mat-card-title>
         About
@@ -8,22 +8,31 @@
       </mat-card-subtitle>
   </mat-card-header>
   <mat-card-content>
+    <mat-card>
+      <h3>A warrior is one who:</h3>
 
-    <mat-divider></mat-divider>
+      <mat-list role="list" dense>
+        <mat-list-item role="listitem">Understands, values and possess honour</mat-list-item>
+        <mat-list-item role="listitem">Recognizes that their abilities carry with them a responsibility</mat-list-item>
+        <mat-list-item role="listitem">Trains diligently in the arts and sciences of survival and defense</mat-list-item>
+      </mat-list>
 
-    <h3>A warrior is one who:</h3>
+      <p>- Prof./Sifu Jay McCoy</p>
+    </mat-card>
+  </mat-card-content>
+</mat-card>
 
-    <ul>
-      <li>Understands, values and possess honour</li>
-      <li>Recognizes that her/his abilities carry with them a responsibility</li>
-      <li>Trains diligently in the arts and sciences of survival and defense</li>
-    </ul>
-
-    <p>- Prof./Sifu Jay McCoy</p>
-
-    <mat-divider></mat-divider>
+<mat-card class="out-card">
+  <mat-card-header>
+    <mat-card-title>
+      Warriors
+    </mat-card-title>
+    <mat-card-subtitle>
+      Information about the different warriors.
+    </mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
     <mat-accordion>
-      <h2>Warriors</h2>
       <mat-expansion-panel *ngFor="let warrior of warriors">
         <mat-expansion-panel-header>
           <mat-panel-title>
