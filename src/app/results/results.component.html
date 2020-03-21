@@ -1,7 +1,20 @@
-<p>results works!</p>
+<mat-card *ngIf="warrior">
+  <mat-card-header>
+    <mat-card-subtitle>
+      You are a
+    </mat-card-subtitle>
+    <mat-card-title>
+      {{warrior.title}}
+    </mat-card-title>
+  </mat-card-header>
+  <img mat-card-image [src]="warrior.image" alt="An image of a {{warrior.title}}" />
+  <mat-card-content>
 
-<app-question-card (quizResultsEvent)="receiveResults($event)"></app-question-card>
+    <p>{{warrior.description}}</p>
 
-<p>Winner (testing purposes): {{result}}</p>
+  </mat-card-content>
 
-
+  <mat-card-actions>
+    <button mat-raised-button color="accent" [routerLink]="['/questions', 1]" routerLinkActive="active">Take the quiz again!</button>
+  </mat-card-actions>
+</mat-card>

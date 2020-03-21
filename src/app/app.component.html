@@ -1,43 +1,45 @@
 <div id="container">
+  <mat-progress-bar *ngIf="loading" color="accent" mode="indeterminate"></mat-progress-bar>
   <header>
     <mat-toolbar color="primary">
       <mat-toolbar-row>
         <span>
-          <a mat-icon-button (click)="sidenav.toggle()"><mat-icon>menu</mat-icon></a>
+          <a mat-icon-button (click)="sidenav.toggle()"><mat-icon>{{sidenav.opened ? 'close' : 'menu'}}</mat-icon></a>
         </span>
         <h1>Warriorship</h1>
       </mat-toolbar-row>
     </mat-toolbar>
   </header>
   <mat-sidenav-container>
-    <mat-sidenav #sidenav fixedInViewport fixedTopGap="56"mode="over" (keydown.escape)="sidenav.close()" >
-
-      <!--    <p><button mat-button (click)="close()">Toggle</button></p>-->
-      <mat-nav-list role="list">
-        <mat-list-item routerLink="/" (click)="sidenav.close()">
-          <mat-icon matListIcon>home</mat-icon>
+    <mat-sidenav #sidenav>
+      <mat-nav-list>
+        <mat-list-item routerLink="/" style="height: 0; position: absolute"></mat-list-item><!-- consuming weird highlight of first element behaviour -->
+        <a mat-list-item routerLink="/" routerLinkActive (click)="sidenav.close()">
+          <mat-icon matListIcon>ballot</mat-icon>
           <h3 matLine>Quiz</h3>
-        </mat-list-item>
+        </a>
         <mat-divider></mat-divider>
-        <mat-list-item routerLink="/about" (click)="sidenav.close()">
+        <a mat-list-item routerLink="/about" routerLinkActive (click)="sidenav.close()">
           <mat-icon matListIcon>menu_book</mat-icon>
           <h3 matLine>About</h3>
-        </mat-list-item>
+        </a>
         <mat-divider></mat-divider>
-        <mat-list-item routerLink="/credits" (click)="sidenav.close()">
+        <a mat-list-item routerLink="/credits" routerLinkActive (click)="sidenav.close()">
           <mat-icon matListIcon>web</mat-icon>
           <h3 matLine>Credits</h3>
-        </mat-list-item>
+        </a>
       </mat-nav-list>
     </mat-sidenav>
-
     <mat-sidenav-content>
-      <main [@routeAnimations]="prepareRoute(outlet)">
-        <router-outlet #outlet="outlet"></router-outlet>
+<!--      <main [@routeAnimations]="prepareRoute(outlet)">-->
+<!--        <router-outlet #outlet="outlet"></router-outlet>-->
+<!--      </main>-->
+      <main>
+        <router-outlet></router-outlet>
       </main>
     </mat-sidenav-content>
   </mat-sidenav-container>
   <mat-toolbar color="primary" id="footer">
-    <span>&copy; 2020 Chris Dias & James DiNovo</span>
+    <span>&copy; 2020 <a mat-button color="accent" href="https://github.com/chrisdias96" rel="noreferrer" target="_blank">Chris Dias</a> & <a mat-button color="accent" href="https://github.com/jdinovo" rel="noreferrer" target="_blank">James DiNovo</a></span>
   </mat-toolbar>
 </div>

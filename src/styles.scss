@@ -26,36 +26,20 @@ $warriorship-theme: mat-dark-theme($warriorship-primary, $warriorship-accent, $w
 // that you are using.
 @include angular-material-theme($warriorship-theme);
 
-$warriorship-primary: mat-palette($mat-blue-gray, 800);
-$warriorship-accent: mat-palette($mat-deep-orange, A200, A100, A400);
-
-// The warn palette is optional (defaults to red).
-$warriorship-warn: mat-palette($mat-red);
-
-// Create the theme object (a Sass map containing all of the palettes).
-$warriorship-theme: mat-dark-theme($warriorship-primary, $warriorship-accent, $warriorship-warn);
-
-// Include theme styles for core and each component used in your app.
-// Alternatively, you can import and @include the theme mixins for each component
-// that you are using.
-@include angular-material-theme($warriorship-theme);
-
 /* You can add global styles to this file, and also import other style files */
 html, body {
-  background-color: mat-color($mat-gray, 900);
-  background-image: url("http://thepatternlibrary.com/img/ao.gif");
-  background-repeat: repeat;
+  //background-color: mat-color($mat-gray, 900);
+  //background-image: url("http://thepatternlibrary.com/img/ao.gif");
+  //background-repeat: repeat;
   height: 100%;
   margin: 0;
-  //background-color: mat-color($mat-blue-gray, 900);
-  //background-image: linear-gradient(30deg, mat-color($mat-blue-gray, 700) 12%, transparent 12.5%, transparent 87%, mat-color($mat-blue-gray, 700) 87.5%, mat-color($mat-blue-gray, 700)),
-  //linear-gradient(150deg, mat-color($mat-blue-gray, 700) 12%, transparent 12.5%, transparent 87%, mat-color($mat-blue-gray, 700) 87.5%, mat-color($mat-blue-gray, 700)),
-  //linear-gradient(30deg, mat-color($mat-blue-gray, 700) 12%, transparent 12.5%, transparent 87%, mat-color($mat-blue-gray, 700) 87.5%, mat-color($mat-blue-gray, 700)),
-  //linear-gradient(150deg, mat-color($mat-blue-gray, 700) 12%, transparent 12.5%, transparent 87%, mat-color($mat-blue-gray, 700) 87.5%, mat-color($mat-blue-gray, 700)),
-  //linear-gradient(60deg, mat-color($mat-blue-gray, 500) 25%, transparent 25.5%, transparent 75%, mat-color($mat-blue-gray, 500) 75%, mat-color($mat-blue-gray, 500)),
-  //linear-gradient(60deg, mat-color($mat-blue-gray, 500) 25%, transparent 25.5%, transparent 75%, mat-color($mat-blue-gray, 500) 75%, mat-color($mat-blue-gray, 500));
-  //background-size:80px 140px;
-  //background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+
+  // SOURCE: https://leaverou.github.io/css3patterns/#weave
+  background:
+    linear-gradient(135deg, mat-color($mat-gray, 900) 21px, mat-color($mat-gray, 800) 22px, mat-color($mat-gray, 800) 24px, transparent 24px, transparent 67px, mat-color($mat-gray, 800) 67px, mat-color($mat-gray, 800) 69px, transparent 69px),
+    linear-gradient(225deg, mat-color($mat-gray, 900) 21px, mat-color($mat-gray, 800) 22px, mat-color($mat-gray, 800) 24px, transparent 24px, transparent 67px, mat-color($mat-gray, 800) 67px, mat-color($mat-gray, 800) 69px, transparent 69px)0 64px;
+  background-color: mat-color($mat-gray, 900);
+  background-size: 64px 128px;
 }
 
 #wrapper {
@@ -64,6 +48,6 @@ html, body {
 }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; color: white;}
 
-.answer-radio-button > * {
+.answer-button > * {
   white-space: normal !important;
 }

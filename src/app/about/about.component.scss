@@ -1,0 +1,15 @@
+.out-card {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+h3 {
+  margin: 0;
+}
+
+@media only screen and (max-width: 980px) {
+  .out-card {
+    max-width: 90%;
+  }
+}

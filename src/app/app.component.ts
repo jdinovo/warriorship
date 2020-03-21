@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {QuestionsService} from './questions.service';
-import {RouterOutlet} from '@angular/router';
+import {NavigationCancel, NavigationEnd, NavigationError, NavigationStart, Router, RouterEvent, RouterOutlet} from '@angular/router';
 import {fadeInAnimation} from './animations';
 
 @Component({
@@ -12,9 +12,19 @@ import {fadeInAnimation} from './animations';
   ]
 })
 export class AppComponent {
-  title = 'warriorship';
+  loading = false;
 
-  constructor(private questionsService: QuestionsService) {
+  constructor(private questionsService: QuestionsService, private router: Router) {
+
+    this.router.events.subscribe((event: RouterEvent) => {
+      if (event instanceof NavigationStart) {
+        this.loading = true;
+      }
+
+      if (event instanceof NavigationEnd || event instanceof NavigationCancel || event instanceof NavigationError) {
+        setTimeout(_ => this.loading = false, 500);
+      }
+    });
   }
 
   prepareRoute(outlet: RouterOutlet) {

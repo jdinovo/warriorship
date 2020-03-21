@@ -16,6 +16,10 @@ export class AnswersService {
 
   constructor(private http: HttpClient) { }
 
+  getAnswers(): Observable<Answer[]> {
+    return this.http.get<Answer[]>('api/answers/');
+  }
+
   getAnswerItem(id): Observable<Answer> {
     return this.http.get<Answer>('api/answers/' + id);
   }

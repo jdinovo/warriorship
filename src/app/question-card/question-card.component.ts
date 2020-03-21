@@ -48,11 +48,13 @@ export class QuestionCardComponent implements OnInit {
         c => {
           this.question = c;
           this.questionAnswer = c.selectedAnswer;
-        });
+        }
+      );
       this.questionsService.getQuestions().subscribe(
         c => {
           this.numOfQuestions = c.length;
-        });
+        }
+      );
     });
 
     // for adjusting button layout based on screen size
@@ -62,16 +64,15 @@ export class QuestionCardComponent implements OnInit {
     ]);
 
     layoutChanges.subscribe(result => {
-      console.log(result);
       if (result.breakpoints['(max-width: 600px)']) {
         this.numOfCols = 1;
-        this.rowHeight = '2:1';
+        this.rowHeight = '4:1';
       } else if (result.breakpoints['(max-width: 980px)']) {
         this.numOfCols = 1;
-        this.rowHeight = '3:1';
+        this.rowHeight = '5:1';
       } else {
         this.numOfCols = 2;
-        this.rowHeight = '2:1';
+        this.rowHeight = '3:1';
       }
     });
   }
@@ -83,7 +84,7 @@ export class QuestionCardComponent implements OnInit {
       this.addPoint(id);
       this.questionsService.updateQuestion(this.question).subscribe(
         c => {
-          console.log(c);
+          console.log(this.question);
           this.loading = false;
 
           console.log('A:' + this.pointA);
@@ -95,7 +96,7 @@ export class QuestionCardComponent implements OnInit {
       if (this.id < this.numOfQuestions) {
         this.router.navigate(['/questions', this.id + 1]);
       } else {
-        this.router.navigate(['/results']);
+        this.router.navigate(['/results'], { state: { winner: this.winningResult } });
       }
     }
   }
