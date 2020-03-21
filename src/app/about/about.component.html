@@ -33,7 +33,10 @@
 
           </mat-panel-description>
         </mat-expansion-panel-header>
-        {{warrior.description}}
+        <ng-template matExpansionPanelContent>
+          <img mat-card-image [src]="warrior.image" alt="An image of a {{warrior.title}}" />
+          {{warrior.description}}
+        </ng-template>
       </mat-expansion-panel>
     </mat-accordion>
   </mat-card-content>
