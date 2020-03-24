@@ -73,7 +73,7 @@ export let WARRIORS: Warrior[] = [
       'sometimes you bottle your feelings inside and take it out on a loved one. ' +
       'You are a risk taker who would rather live life to ' +
       'the fullest than sitting at home watching TV.',
-    aboutDescription: 'Samurai\'s date back all the way to 1663 AD. ' +
+    aboutDescription: 'Samurai\'s date back all the way to 1663. ' +
       'Samurai\'s used to be servants who had no nobility but were rich, ' +
       'which was a great benefit for the military since they lacked weapons and horses. ' +
       'They began winning battles and their legends grew. ' +
