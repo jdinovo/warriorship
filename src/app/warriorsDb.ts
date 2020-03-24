@@ -1,6 +1,6 @@
-import {Answer} from './answer-helper';
+import {Warrior} from './warrior-helper';
 
-export let ANSWERS: Answer[] = [
+export let WARRIORS: Warrior[] = [
   {
     id: 0,
     title: 'Monk',
@@ -56,9 +56,8 @@ export let ANSWERS: Answer[] = [
       'You have many life experiences and prefer to live life on the edge when necessary. ' +
       'One day, you will tell your beautiful stories to your future children and grandchildren.',
     aboutDescription: 'There is a plethora of information regarding different types ' +
-      'of knights and how they portrayed themselves. One thing is for certain; ' +
-      'most knights were corrupt. Knecht means servant, and these servants became the first order of Knights. ' +
-      'The first true knights were the Crusades funded by the government and founded by Pope John in 1905. ' +
+      'of knights and how they portrayed themselves. Knecht means servant, and these servants became the first order of Knights. ' +
+      'The first true knights were the Crusades funded by the government and founded by Pope John in 1095. ' +
       'Their job was to protect people in the hospital, and eventually protect people traveling the roads. ' +
       'The knights became Templars in 1119 and became immensely popular receiving ' +
       'donations and and holding rich people\'s money when they travelled. ' +

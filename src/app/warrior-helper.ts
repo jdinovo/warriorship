@@ -1,4 +1,4 @@
-export interface Answer {
+export interface Warrior {
   id: number;
   title: string;
   image: string;

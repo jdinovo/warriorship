@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {QuestionsService} from './questions.service';
 import {NavigationCancel, NavigationEnd, NavigationError, NavigationStart, Router, RouterEvent, RouterOutlet} from '@angular/router';
 import {fadeInAnimation} from './animations';
 
@@ -14,7 +13,7 @@ import {fadeInAnimation} from './animations';
 export class AppComponent {
   loading = false;
 
-  constructor(private questionsService: QuestionsService, private router: Router) {
+  constructor(private router: Router) {
 
     this.router.events.subscribe((event: RouterEvent) => {
       if (event instanceof NavigationStart) {

@@ -1,8 +1,8 @@
-<div id="wrapper" *ngIf="question">
+<div id="wrapper">
   <mat-card>
     <mat-card-header>
       <mat-card-subtitle>
-        Question #{{question.id}}
+        Question #{{counter}}
       </mat-card-subtitle>
       <mat-card-title>
         <h1>{{question.question}}</h1>
@@ -37,8 +37,8 @@
       </mat-grid-list>
     </mat-card-content>
     <mat-card-actions>
-      <button *ngIf="question.id == 1" mat-raised-button color="accent" id="home" routerLink="/" routerLinkActive="active"><mat-icon>home</mat-icon>Home</button>
-      <button *ngIf="question.id > 1" mat-raised-button color="accent" id="back"  [routerLink]="['/questions', question.id - 1]" routerLinkActive="active"><mat-icon>arrow_back</mat-icon>Back</button>
+      <button *ngIf="counter == 1" mat-raised-button color="accent" id="home" routerLink="/" routerLinkActive="active"><mat-icon>home</mat-icon>Home</button>
+      <button *ngIf="counter > 1" mat-raised-button color="accent" id="back" (click)="backOneQuestion()"><mat-icon>arrow_back</mat-icon>Back</button>
     </mat-card-actions>
   </mat-card>
 </div>
