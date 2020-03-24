@@ -39,7 +39,7 @@ export let QUESTIONS: Question[] = [
   },
   {
     question: 'A man is caught stealing from the market, what should happen to him?',
-    answers: ['Have him serve those he from which he stole', 'Off with his head', 'Fine him double the value of the goods', 'Lock him up']
+    answers: ['Have him serve those from which he stole', 'Off with his head', 'Fine him double the value of the goods', 'Lock him up']
   },
   {
     question: 'You are outnumbered and face almost certain defeat, what do you do?',
