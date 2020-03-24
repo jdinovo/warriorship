@@ -19,7 +19,7 @@ export class AppComponent {
 
     this.matIconRegistry.addSvgIcon(
       `warrior`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl('/assets/icons/warrior_icon.svg')
+      '/assets/icons/warrior_icon.svg'
     );
 
     this.router.events.subscribe((event: RouterEvent) => {
