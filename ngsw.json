@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1585084436926,
+  "timestamp": 1585085606719,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -51,8 +51,8 @@
   "dataGroups": [],
   "hashTable": {
     "/assets/icons/apple-touch-icon.png": "5d754351db36510aa9d3987a5fb25499015658d4",
-    "/assets/icons/favicon-16x16.png": "71b613f40c5c736fa759f485a0f0e53fd25ecedb",
-    "/assets/icons/favicon-32x32.png": "a7f2eefd088898f007627cbb12f979ced1c1bac7",
+    "/assets/icons/favicon-16x16.png": "0b17c0940fe60b151c0adb00819e63b0ad6434f7",
+    "/assets/icons/favicon-32x32.png": "f00887f7a629eaac1cdd9188fa7470e93185307e",
     "/assets/icons/icon-192x192.png": "89a48167bf237ebd701628b6e974062e9a3097d8",
     "/assets/icons/icon-512x512.png": "b644a7e05b30e3ef73236344425240449e997a41",
     "/assets/icons/mstile-144x144.png": "1ca4c70e12a44411d784dfdfdc3dbdaef49b288f",
