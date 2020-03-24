@@ -5,7 +5,7 @@
   "background_color": "#37474F",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/warriorship/",
+  "start_url": "/",
   "icons": [
     {
       "src": "assets/icons/icon-192x192.png",
