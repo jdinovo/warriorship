@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1585078463158,
+  "timestamp": 1585078677208,
   "index": "/warriorship/index.html",
   "assetGroups": [
     {
@@ -8,8 +8,6 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/warriorship/assets/icons/apple-touch-icon.png",
-        "/warriorship/assets/icons/safari-pinned-tab.svg",
         "/warriorship/favicon.ico",
         "/warriorship/index.html",
         "/warriorship/main-es2015.728deca227f5a70473b0.js",
@@ -28,6 +26,7 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "/warriorship/assets/icons/apple-touch-icon.png",
         "/warriorship/assets/icons/favicon-16x16.png",
         "/warriorship/assets/icons/favicon-32x32.png",
         "/warriorship/assets/icons/icon-192x192.png",
@@ -37,6 +36,7 @@
         "/warriorship/assets/icons/mstile-310x150.png",
         "/warriorship/assets/icons/mstile-310x310.png",
         "/warriorship/assets/icons/mstile-70x70.png",
+        "/warriorship/assets/icons/safari-pinned-tab.svg",
         "/warriorship/assets/icons/warrior_icon.svg",
         "/warriorship/assets/images/homepage.jpg",
         "/warriorship/assets/images/knight.jpg",
@@ -67,7 +67,7 @@
     "/warriorship/assets/images/samurai.jpg": "114dae079d3629e413c9836ccaed1179b85627a0",
     "/warriorship/assets/images/viking.jpg": "6ff07f2c3df1a5662137cd3f07624e0332f9a5f0",
     "/warriorship/favicon.ico": "85ec0e00c88e6f75192d5a240d85fccff232e49d",
-    "/warriorship/index.html": "4b30178413437044d70612b835cf252a7d8a88a6",
+    "/warriorship/index.html": "98dbcd39eeb469c35f6844776fb0dc264e4ed11c",
     "/warriorship/main-es2015.728deca227f5a70473b0.js": "4124b4714062292408d44af329250b90980735ff",
     "/warriorship/main-es5.728deca227f5a70473b0.js": "6be6a0a370e106bddb21503f95b23de24e6454fa",
     "/warriorship/manifest.webmanifest": "2905c64afb60b71af5941e49e657b95b36423530",
