@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1585076189360,
+  "timestamp": 1585076533668,
   "index": "/warriorship/index.html",
   "assetGroups": [
     {
@@ -10,14 +10,14 @@
       "urls": [
         "/warriorship/favicon.ico",
         "/warriorship/index.html",
-        "/warriorship/main-es2015.0f8ef9588ea51cb780b3.js",
-        "/warriorship/main-es5.0f8ef9588ea51cb780b3.js",
+        "/warriorship/main-es2015.747a0145659003f3b525.js",
+        "/warriorship/main-es5.747a0145659003f3b525.js",
         "/warriorship/manifest.webmanifest",
         "/warriorship/polyfills-es2015.ca64e4516afbb1b890d5.js",
         "/warriorship/polyfills-es5.1d087d4db6b105875851.js",
         "/warriorship/runtime-es2015.0811dcefd377500b5b1a.js",
         "/warriorship/runtime-es5.0811dcefd377500b5b1a.js",
-        "/warriorship/styles.aa8f36726996031506a8.css"
+        "/warriorship/styles.7e518ba8fcc163cf6a01.css"
       ],
       "patterns": []
     },
@@ -43,12 +43,12 @@
         "/warriorship/assets/icons/mstile-310x310.png",
         "/warriorship/assets/icons/mstile-70x70.png",
         "/warriorship/assets/icons/safari-pinned-tab.svg",
+        "/warriorship/assets/icons/warrior_icon.svg",
         "/warriorship/assets/images/homepage.jpg",
         "/warriorship/assets/images/knight.jpg",
         "/warriorship/assets/images/monk.jpg",
         "/warriorship/assets/images/samurai.jpg",
-        "/warriorship/assets/images/viking.jpg",
-        "/warriorship/assets/warrior_icon.svg"
+        "/warriorship/assets/images/viking.jpg"
       ],
       "patterns": []
     }
@@ -72,22 +72,22 @@
     "/warriorship/assets/icons/mstile-310x310.png": "a5ac8644789bbe06f4b4f9e290ab88c23e90cc0f",
     "/warriorship/assets/icons/mstile-70x70.png": "4e6df1e81574d99394eeed04e699eae2f9215f1b",
     "/warriorship/assets/icons/safari-pinned-tab.svg": "41f7c63d46bc11f414e249fd6356619a91b97878",
+    "/warriorship/assets/icons/warrior_icon.svg": "36ff1c8e1ffca6165ae066e482efd2b570d12629",
     "/warriorship/assets/images/homepage.jpg": "0f2b571131c8e84860ba06b3857421215b5923aa",
     "/warriorship/assets/images/knight.jpg": "f1d619a73e50950ae36b9da98e33f4a70e418038",
     "/warriorship/assets/images/monk.jpg": "d3b4c283fbc7a30d71d3f42eb1972362d071d48c",
     "/warriorship/assets/images/samurai.jpg": "114dae079d3629e413c9836ccaed1179b85627a0",
     "/warriorship/assets/images/viking.jpg": "6ff07f2c3df1a5662137cd3f07624e0332f9a5f0",
-    "/warriorship/assets/warrior_icon.svg": "36ff1c8e1ffca6165ae066e482efd2b570d12629",
     "/warriorship/favicon.ico": "85ec0e00c88e6f75192d5a240d85fccff232e49d",
-    "/warriorship/index.html": "b73172d552076d76291d19f56930e16489704dcd",
-    "/warriorship/main-es2015.0f8ef9588ea51cb780b3.js": "d0b940a9d31bd701605133f53bb29e631cd0c2a5",
-    "/warriorship/main-es5.0f8ef9588ea51cb780b3.js": "670970552af797e2d3a4fba403eae8c11d48a7ee",
+    "/warriorship/index.html": "133661339a5d6d6f1589c45da08993f5ed1961ee",
+    "/warriorship/main-es2015.747a0145659003f3b525.js": "b14ea6ee0a0661642115a8cbbdd9fefabe8daf40",
+    "/warriorship/main-es5.747a0145659003f3b525.js": "fd60794bf6a92fbc573b7713e68bdda9d02733e8",
     "/warriorship/manifest.webmanifest": "6554a856be4f6bc378cbbccff94b85419b43ac7e",
     "/warriorship/polyfills-es2015.ca64e4516afbb1b890d5.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
     "/warriorship/polyfills-es5.1d087d4db6b105875851.js": "4abddf12647f54bb1475c72185db1835be2073ce",
     "/warriorship/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/warriorship/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/warriorship/styles.aa8f36726996031506a8.css": "38270b4c84b887773858f86aa0dc3a0a53e94850"
+    "/warriorship/styles.7e518ba8fcc163cf6a01.css": "976668966456a39f9ce286055e942da6d9c8b1fe"
   },
   "navigationUrls": [
     {
