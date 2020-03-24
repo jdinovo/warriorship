@@ -1,8 +1,8 @@
-<div id="wrapper" *ngIf="question">
+<div id="wrapper">
   <mat-card>
     <mat-card-header>
       <mat-card-subtitle>
-        Question #{{question.id}}
+        Question #{{counter}}
       </mat-card-subtitle>
       <mat-card-title>
         <h1>{{question.question}}</h1>
@@ -10,35 +10,39 @@
     </mat-card-header>
     <mat-card-content>
       <mat-grid-list cols="{{numOfCols}}" rowHeight="{{rowHeight}}">
-<!--        <div class="answerRows">-->
-        <mat-grid-tile>
-          <a id="q0" mat-flat-button [disabled]="loading" (click)="saveAnswer(0)" class="answer-button">
-            {{question.answers[0]}}
-          </a>
-        </mat-grid-tile>
-        <mat-grid-tile>
-          <a id="q1" mat-flat-button [disabled]="loading" (click)="saveAnswer(1)" class="answer-button">
-            {{question.answers[1]}}
-          </a>
-        </mat-grid-tile>
-<!--        </div>-->
-<!--        <div class="answerRows">-->
-        <mat-grid-tile>
-          <a id="q2" mat-flat-button [disabled]="loading" (click)="saveAnswer(2)" class="answer-button">
-            {{question.answers[2]}}
-          </a>
-        </mat-grid-tile>
-        <mat-grid-tile>
-          <a id="q3" mat-flat-button [disabled]="loading" (click)="saveAnswer(3)" class="answer-button">
-            {{question.answers[3]}}
-          </a>
-        </mat-grid-tile>
-<!--        </div>-->
+        <ng-container *ngIf="question.answers[0] && question.answers[0].length > 0">
+          <mat-grid-tile>
+            <a id="q0" mat-flat-button [disabled]="loading" (click)="saveAnswer(0)" class="answer-button">
+              {{question.answers[0]}}
+            </a>
+          </mat-grid-tile>
+        </ng-container>
+        <ng-container *ngIf="question.answers[1] && question.answers[1].length > 0">
+          <mat-grid-tile>
+            <a id="q1" mat-flat-button [disabled]="loading" (click)="saveAnswer(1)" class="answer-button">
+              {{question.answers[1]}}
+            </a>
+          </mat-grid-tile>
+        </ng-container>
+        <ng-container *ngIf="question.answers[2] && question.answers[2].length > 0">
+          <mat-grid-tile>
+            <a id="q2" mat-flat-button [disabled]="loading" (click)="saveAnswer(2)" class="answer-button">
+              {{question.answers[2]}}
+            </a>
+          </mat-grid-tile>
+        </ng-container>
+        <ng-container *ngIf="question.answers[3] && question.answers[3].length > 0">
+          <mat-grid-tile>
+            <a id="q3" mat-flat-button [disabled]="loading" (click)="saveAnswer(3)" class="answer-button">
+              {{question.answers[3]}}
+            </a>
+          </mat-grid-tile>
+        </ng-container>
       </mat-grid-list>
     </mat-card-content>
     <mat-card-actions>
-      <button *ngIf="question.id == 1" mat-raised-button color="accent" id="home" routerLink="/" routerLinkActive="active"><mat-icon>home</mat-icon>Home</button>
-      <button *ngIf="question.id > 1" mat-raised-button color="accent" id="back"  [routerLink]="['/questions', question.id - 1]" routerLinkActive="active"><mat-icon>arrow_back</mat-icon>Back</button>
+      <button *ngIf="counter == 1" mat-raised-button color="accent" id="home" routerLink="/" routerLinkActive="active"><mat-icon>home</mat-icon>Home</button>
+      <button *ngIf="counter > 1" mat-raised-button color="accent" id="back" (click)="backOneQuestion()"><mat-icon>arrow_back</mat-icon>Back</button>
     </mat-card-actions>
   </mat-card>
 </div>

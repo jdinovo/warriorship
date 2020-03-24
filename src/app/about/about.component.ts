@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Answer} from '../answer-helper';
-import {AnswersService} from '../answers.service';
+import {Warrior} from '../warrior-helper';
+import {WARRIORS} from '../warriorsDb';
 
 @Component({
   selector: 'app-about',
@@ -9,14 +9,10 @@ import {AnswersService} from '../answers.service';
 })
 export class AboutComponent implements OnInit {
 
-  warriors: Answer[];
+  warriors: Warrior[] = WARRIORS;
 
-  constructor(private answersService: AnswersService) { }
+  constructor() { }
 
-  ngOnInit(): void {
-    this.answersService.getAnswers().subscribe(answers => {
-      this.warriors = answers;
-    });
-  }
+  ngOnInit(): void { }
 
 }

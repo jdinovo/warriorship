@@ -15,8 +15,6 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { CreditsComponent } from './credits/credits.component';
 import {MatIconModule} from '@angular/material/icon';
 import {HttpClientModule} from '@angular/common/http';
-import { HttpClientInMemoryWebApiModule} from 'angular-in-memory-web-api';
-import { InMemoryDataService } from './in-memory-data.service';
 import {MatCardModule} from '@angular/material/card';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {FormsModule} from '@angular/forms';
@@ -25,6 +23,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { AboutComponent } from './about/about.component';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {TwitterComponent} from './social/twitter/twitter.component';
+import { FacebookComponent } from './social/facebook/facebook.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +34,11 @@ import {MatExpansionModule} from '@angular/material/expansion';
     ResultsComponent,
     NotFoundComponent,
     CreditsComponent,
-    AboutComponent
+    AboutComponent,
+    TwitterComponent,
+    TwitterComponent,
+    FacebookComponent,
+    FacebookComponent
   ],
   imports: [
     BrowserModule,
@@ -45,15 +49,13 @@ import {MatExpansionModule} from '@angular/material/expansion';
     MatListModule,
     RouterModule.forRoot([
       {path: '', component: HomepageComponent},
-      {path: 'questions/:id', component: QuestionCardComponent},
+      {path: 'quiz', component: QuestionCardComponent},
       {path: 'results', component: ResultsComponent},
       {path: 'credits', component: CreditsComponent},
       {path: 'about', component: AboutComponent},
       {path: '**', component: NotFoundComponent}
     ]),
     HttpClientModule,
-    HttpClientInMemoryWebApiModule.forRoot(
-      InMemoryDataService, {dataEncapsulation: false}),
     MatIconModule,
     MatCardModule,
     MatToolbarModule,

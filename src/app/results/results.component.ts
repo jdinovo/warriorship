@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-import {AnswersService} from '../answers.service';
-import {Answer} from '../answer-helper';
 import {Router} from '@angular/router';
+import {WARRIORS} from '../warriorsDb';
+import {Warrior} from '../warrior-helper';
 
 @Component({
   selector: 'app-results',
@@ -11,9 +11,10 @@ import {Router} from '@angular/router';
 export class ResultsComponent implements OnInit {
 
   result: number;
-  warrior: Answer;
+  warrior: Warrior;
+  warriors: Warrior[] = WARRIORS;
 
-  constructor(private answersService: AnswersService, private router: Router) { }
+  constructor( private router: Router) { }
 
   ngOnInit() {
     this.result = history.state.winner;
@@ -21,10 +22,7 @@ export class ResultsComponent implements OnInit {
     if (this.result === undefined) {
       this.router.navigate(['/']);
     } else {
-      this.answersService.getAnswerItem(this.result).subscribe(answer => {
-        console.log(answer);
-        this.warrior = answer;
-      });
+      this.warrior = this.warriors[this.result];
     }
   }
 

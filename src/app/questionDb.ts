@@ -2,48 +2,56 @@ import {Question} from './question-helper';
 
 export let QUESTIONS: Question[] = [
   {
-    id: 1,
-    question: 'What weapon would you use?',
+    question: 'Which is your weapon of choice?',
     answers: ['Fists', 'Axe', 'Sword', 'Bow & Arrow']
   },
   {
-    id: 2,
-    question: 'What is your most favourite sport?',
-    answers: ['Baseball', 'Football', 'Boxing', 'Martial Arts']
+    question: 'What is your favourite sport?',
+    answers: ['Baseball', 'Football', 'Hockey', 'Martial Arts']
   },
   {
-    id: 3,
     question: 'Which quality best describes you?',
     answers: ['Artistic', 'Athletic', 'Creative', 'Intelligent']
   },
   {
-    id: 4,
-    question: 'Which weakness best describes you?',
+    question: 'Which is your greatest weakness?',
     answers: ['Can\'t Focus', 'Lose My Temper Easily', 'Inflated Ego', 'I\'m loud']
   },
   {
-    id: 5,
-    question: 'What is your most favourite type of music?',
+    question: 'What is your favourite type of music?',
     answers: ['Indie', 'Heavy Metal', 'Classical', 'Hip-Hop']
   },
   {
-    id: 6,
-    question: 'What is your most favourite movie genre?',
+    question: 'What is your favourite movie genre?',
     answers: ['Romance', 'Horror', 'Action', 'Sci-fi']
   },
   {
-    id: 7,
-    question: 'What is your most favourite type of food?',
-    answers: ['Sushi', 'Burgers', 'Pizza', 'Pasta']
-  },
-  {
-    id: 8,
-    question: 'What is your most favourite type of vehicle',
-    answers: ['Bike', 'Truck', 'Sports Car', 'Electric Car']
-  },
-  {
-    id: 9,
     question: 'Somebody starts an argument, your strategy is:',
-    answers: ['Defuse it', 'Fight', 'Argue back', 'Run away']
+    answers: ['Defuse the situation', 'Fight', 'Engage in the argument', 'Leave']
+  },
+  {
+    question: 'What do you usually follow?',
+    answers: ['Your heart', 'Your gut', 'The leader', 'Your mind']
+  },
+  {
+    question: 'Which superhero power would you rather have?',
+    answers: ['Manipulate time', 'Superhuman strength', 'Laser vision', 'Invisibility']
+  },
+  {
+    question: 'A man is caught stealing from the market, what should happen to him?',
+    answers: ['Have him serve those from which he stole', 'Off with his head', 'Fine him double the value of the goods', 'Lock him up']
+  },
+  {
+    question: 'You are outnumbered and face almost certain defeat, what do you do?',
+    answers: ['Surrender', 'Fight on until your last breath',
+      'Attempt to fool your enemy and avoid direct conflict', 'Fallback and reformulate your strategy']
+  },
+  {
+    question: 'You witness a stranger being attacked and in dire need of assistance',
+    answers: ['Call for help', 'Slay the assailants', 'Scare off the assailants', 'Distract the assailants so the victim may flee']
+  },
+  {
+    question: '_______ is mightier than the sword',
+    answers: ['The pen', 'Nothing', 'The shield', 'The mind']
   }
 ];

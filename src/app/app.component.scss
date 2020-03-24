@@ -8,13 +8,21 @@
   right: 0;
 }
 
+header {
+  top: 0;
+  position: fixed;
+  z-index:998;
+  width: 100%;
+}
+
 mat-progress-bar {
   position: fixed;
+  z-index:999;
   width: 100%;
 }
 
 main {
-  margin: 1% 0;
+  margin: 75px 0 19px;
 }
 
 mat-sidenav {

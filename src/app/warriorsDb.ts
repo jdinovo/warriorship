@@ -1,8 +1,7 @@
-import {Answer} from './answer-helper';
+import {Warrior} from './warrior-helper';
 
-export let ANSWERS: Answer[] = [
+export let WARRIORS: Warrior[] = [
   {
-    id: 0,
     title: 'Monk',
     image: 'assets/images/monk.jpg',
     resultDescription: 'You are a monk at heart. You have a spiritual personality that nobody can deny. ' +
@@ -21,7 +20,6 @@ export let ANSWERS: Answer[] = [
       'The earliest postures resembling animals were based on: tiger, crane, leopard, snake and dragon. ',
   },
   {
-    id: 1,
     title: 'Viking',
     image: 'assets/images/viking.jpg',
     resultDescription: 'You are a viking at heart. When your mind is set on a goal, ' +
@@ -42,7 +40,6 @@ export let ANSWERS: Answer[] = [
       'Eventually, different Viking tribes separated to modern day Iceland, Greenland and even Canada.',
   },
   {
-    id: 2,
     title: 'Knight',
     image: 'assets/images/knight.jpg',
     resultDescription: 'You are a knight at heart. You can be ' +
@@ -56,16 +53,15 @@ export let ANSWERS: Answer[] = [
       'You have many life experiences and prefer to live life on the edge when necessary. ' +
       'One day, you will tell your beautiful stories to your future children and grandchildren.',
     aboutDescription: 'There is a plethora of information regarding different types ' +
-      'of knights and how they portrayed themselves. One thing is for certain; ' +
-      'most knights were corrupt. Knecht means servant, and these servants became the first order of Knights. ' +
-      'The first true knights were the Crusades funded by the government and founded by Pope John in 1905. ' +
+      'of knights and how they portrayed themselves. The Knecht Hospitaller, Knecht meaning laborer or servant, ' +
+      'would care for and protect patients at the Hospital of Saint John of Jerusalem in 1023. ' +
+      'These servants became The Order of Knights of the Hospital of Saint John of Jerusalem. ' +
       'Their job was to protect people in the hospital, and eventually protect people traveling the roads. ' +
       'The knights became Templars in 1119 and became immensely popular receiving ' +
       'donations and and holding rich people\'s money when they travelled. ' +
       'This sort of transaction formally became a modern day bank.',
   },
   {
-    id: 3,
     title: 'Samurai',
     image: 'assets/images/samurai.jpg',
     resultDescription: 'You are a samurai at heart. When it comes to group projects, you ' +
@@ -84,6 +80,6 @@ export let ANSWERS: Answer[] = [
       'Thus, their code; The Bushido (Way of the Warrior) was born. ' +
       'The Bushido has been written by many respected and descendents of samurai over the centuries. ' +
       'The code communicated a set of rules and guidelines ' +
-      'pertaining to respect, loyalty, benevolence and courage.'
+      'pertaining to respect, loyalty, benevolence and courage. Samurais who lost their masters were known as Ronin'
   },
 ];
