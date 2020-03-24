@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Router} from '@angular/router';
+import {WARRIORS} from '../warriorsDb';
+import {Warrior} from '../warrior-helper';
 
 @Component({
   selector: 'app-results',
@@ -7,9 +10,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResultsComponent implements OnInit {
 
-  constructor() { }
+  result: number;
+  warrior: Warrior;
+  warriors: Warrior[] = WARRIORS;
 
-  ngOnInit(): void {
+  constructor( private router: Router) { }
+
+  ngOnInit() {
+    this.result = history.state.winner;
+
+    if (this.result === undefined) {
+      this.router.navigate(['/']);
+    } else {
+      this.warrior = this.warriors[this.result];
+    }
   }
 
 }

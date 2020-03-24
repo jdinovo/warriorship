@@ -1,5 +1,3 @@
-@import '~@angular/material/theming';
-@include mat-core();
 
 #wrapper {
   margin: 0 auto;
@@ -7,23 +5,23 @@
 }
 
 #q0 {
-  background-color: mat-color(mat-palette($mat-red, 800));
+  background-color: #c62828;
 }
 
 #q1 {
-  background-color: mat-color(mat-palette($mat-blue, 800));
+  background-color: #1565c0;
 }
 
 #q2 {
-  background-color: mat-color(mat-palette($mat-green, 800));
+  background-color: #2e7d32;
 }
 
 #q3 {
-  background-color: mat-color(mat-palette($mat-yellow, 800));
+  background-color: #f9a825;
 }
 
 button {
-  width: 25%;
+  width: 40%;
 }
 
 mat-card-actions {

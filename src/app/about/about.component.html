@@ -1,1 +1,52 @@
-<p>about works!</p>
+<mat-card class="out-card">
+  <mat-card-header>
+      <mat-card-title>
+        About
+      </mat-card-title>
+      <mat-card-subtitle>
+        This quiz is meant to be a fun and interactive way to realize your true inner warrior.
+      </mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-card>
+      <h3>A warrior is one who:</h3>
+
+      <mat-list role="list" dense>
+        <mat-list-item role="listitem">Understands, values and possess honour</mat-list-item>
+        <mat-list-item role="listitem">Recognizes that their abilities carry with them a responsibility</mat-list-item>
+        <mat-list-item role="listitem">Trains diligently in the arts and sciences of survival and defense</mat-list-item>
+      </mat-list>
+
+      <p>- Prof./Sifu Jay McCoy</p>
+    </mat-card>
+  </mat-card-content>
+</mat-card>
+
+<mat-card class="out-card">
+  <mat-card-header>
+    <mat-card-title>
+      Warriors
+    </mat-card-title>
+    <mat-card-subtitle>
+      Information about the different warriors.
+    </mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-accordion>
+      <mat-expansion-panel *ngFor="let warrior of warriors">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            {{warrior.title}}
+          </mat-panel-title>
+          <mat-panel-description>
+
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <ng-template matExpansionPanelContent>
+          <img mat-card-image [src]="warrior.image" alt="An image of a {{warrior.title}}" />
+          {{warrior.aboutDescription}}
+        </ng-template>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </mat-card-content>
+</mat-card>

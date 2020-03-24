@@ -1,1 +1,28 @@
-<p>results works!</p>
+<ng-container *ngIf="warrior">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-subtitle>
+        You are a
+      </mat-card-subtitle>
+      <mat-card-title>
+        {{warrior.title}}
+      </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image [src]="warrior.image" alt="An image of a {{warrior.title}}" />
+    <mat-card-content>
+
+      <p>{{warrior.resultDescription}}</p>
+
+      <p>{{warrior.aboutDescription}}</p>
+
+      <div id="social-wrapper">
+        <app-tweet text="I am a {{warrior.title}}!" url="https://jdinovo.github.io/warriorship/"></app-tweet>
+        <app-fb url="https://jdinovo.github.io/warriorship/"></app-fb>
+      </div>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <button mat-raised-button color="accent" [routerLink]="['/quiz']" routerLinkActive="active">Take the quiz again!</button>
+    </mat-card-actions>
+  </mat-card>
+</ng-container>
