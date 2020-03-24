@@ -46,15 +46,15 @@ export class QuestionCardComponent implements OnInit {
 
     // for adjusting button layout based on screen size
     const layoutChanges = this.breakpointObserver.observe([
-      '(max-width: 980px)',
-      '(max-width: 600px)'
+      '(max-width: 780px)',
+      '(max-width: 400px)'
     ]);
 
     layoutChanges.subscribe(result => {
       if (result.breakpoints['(max-width: 400px)']) {
         this.numOfCols = 1;
         this.rowHeight = '2:1';
-      } else if (result.breakpoints['(max-width: 980px)']) {
+      } else if (result.breakpoints['(max-width: 780px)']) {
         this.numOfCols = 1;
         this.rowHeight = '4:1';
       } else {
