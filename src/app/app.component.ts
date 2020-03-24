@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import {NavigationCancel, NavigationEnd, NavigationError, NavigationStart, Router, RouterEvent, RouterOutlet} from '@angular/router';
 import {fadeInAnimation} from './animations';
+import {MatIconRegistry} from '@angular/material/icon';
+import {DomSanitizer} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +15,12 @@ import {fadeInAnimation} from './animations';
 export class AppComponent {
   loading = false;
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private matIconRegistry: MatIconRegistry, private domSanitizer: DomSanitizer) {
+
+    this.matIconRegistry.addSvgIcon(
+      `warrior`,
+      this.domSanitizer.bypassSecurityTrustResourceUrl('../assets/warrior_icon.svg')
+    );
 
     this.router.events.subscribe((event: RouterEvent) => {
       if (event instanceof NavigationStart) {

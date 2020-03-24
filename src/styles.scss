@@ -51,3 +51,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; color: whit
 .answer-button > * {
   white-space: normal !important;
 }
+
+.header-image {
+  background-image: url('/assets/warrior_icon.svg');
+  background-size: cover;
+}

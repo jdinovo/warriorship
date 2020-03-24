@@ -25,6 +25,8 @@ import { AboutComponent } from './about/about.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {TwitterComponent} from './social/twitter/twitter.component';
 import { FacebookComponent } from './social/facebook/facebook.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -63,7 +65,8 @@ import { FacebookComponent } from './social/facebook/facebook.component';
     MatProgressBarModule,
     MatGridListModule,
     MatSidenavModule,
-    MatExpansionModule
+    MatExpansionModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
