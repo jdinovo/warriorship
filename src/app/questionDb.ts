@@ -51,15 +51,7 @@ export let QUESTIONS: Question[] = [
     answers: ['Call for help', 'Slay the assailants', 'Scare off the assailants', 'Distract the assailants so the victim may flee']
   },
   {
-    question: 'You witness a stranger being attacked and in dire need of assistance',
-    answers: ['Call for help', 'Slay the assailants', 'Scare off the assailants', 'Distract the assailants so the victim may flee']
-  },
-  {
     question: '_______ is mightier than the sword',
-    answers: ['The pen', 'Nothing', 'The shield', 'The mind']
-  },
-  {
-    question: '',
     answers: ['The pen', 'Nothing', 'The shield', 'The mind']
   }
 ];
