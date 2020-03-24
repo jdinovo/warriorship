@@ -89,6 +89,7 @@ export class QuestionCardComponent implements OnInit {
   backOneQuestion() {
     this.question = this.questions[this.questions.indexOf(this.question) - 1];
     this.counter--;
+    this.points[this.question.selectedAnswer] -= 1;
   }
 
 }
