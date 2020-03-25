@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1585087312994,
+  "timestamp": 1585094405866,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -62,7 +62,7 @@
     "/assets/icons/mstile-70x70.png": "4e6df1e81574d99394eeed04e699eae2f9215f1b",
     "/assets/icons/safari-pinned-tab.svg": "41f7c63d46bc11f414e249fd6356619a91b97878",
     "/assets/icons/warrior_icon.svg": "36ff1c8e1ffca6165ae066e482efd2b570d12629",
-    "/assets/images/homepage.jpg": "0f2b571131c8e84860ba06b3857421215b5923aa",
+    "/assets/images/homepage.jpg": "a6bfa4088e790fa392ba22ba769011bbf4aa4bb1",
     "/assets/images/knight.jpg": "f1d619a73e50950ae36b9da98e33f4a70e418038",
     "/assets/images/monk.jpg": "d3b4c283fbc7a30d71d3f42eb1972362d071d48c",
     "/assets/images/samurai.jpg": "114dae079d3629e413c9836ccaed1179b85627a0",
