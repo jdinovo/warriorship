@@ -22,7 +22,7 @@
     </mat-card-content>
 
     <mat-card-actions>
-      <button mat-raised-button color="accent" [routerLink]="['/quiz']" routerLinkActive="active">Take the quiz again!</button>
+      <button mat-raised-button color="accent" [routerLink]="['/quiz']" routerLinkActive="active" (click)="scrollToTop()">Take the quiz again!</button>
     </mat-card-actions>
   </mat-card>
 </ng-container>
