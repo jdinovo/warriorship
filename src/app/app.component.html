@@ -4,7 +4,7 @@
     <mat-toolbar color="primary">
       <mat-toolbar-row>
         <span>
-          <button mat-icon-button (click)="sidenav.toggle()"><mat-icon>{{sidenav.opened ? 'close' : 'menu'}}</mat-icon></button>
+          <button mat-icon-button disableRipple (click)="sidenav.toggle()"><mat-icon>{{sidenav.opened ? 'close' : 'menu'}}</mat-icon></button>
         </span>
         <h1>Warriorship</h1>
       </mat-toolbar-row>
@@ -40,6 +40,6 @@
     </mat-sidenav-content>
   </mat-sidenav-container>
   <mat-toolbar color="primary" id="footer">
-    <span>&copy; 2020 <a mat-button color="accent" href="https://github.com/chrisdias96" rel="noreferrer" target="_blank">Chris Dias</a> & <a mat-button color="accent" href="https://github.com/jdinovo" rel="noreferrer" target="_blank">James DiNovo</a></span>
+    <span>&copy; 2020 <a mat-button color="accent" href="https://github.com/jdinovo" rel="noreferrer" target="_blank">James DiNovo</a> & <a mat-button color="accent" href="https://github.com/chrisdias96" rel="noreferrer" target="_blank">Chris Dias</a></span>
   </mat-toolbar>
 </div>

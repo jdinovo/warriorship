@@ -55,5 +55,13 @@ export let QUESTIONS: Question[] = [
   {
     question: '_______ is mightier than the sword',
     answers: ['The heart', 'Nothing', 'The shield', 'The pen']
+  },
+  {
+    question: 'Which archetype best represents your personality?',
+    answers: ['Caregiver', 'Rebel', 'Hero', 'Sage']
+  },
+  {
+    question: 'Which colour best describes how you feel when confronted with challenge?',
+    answers: ['', '', '', '']
   }
 ];

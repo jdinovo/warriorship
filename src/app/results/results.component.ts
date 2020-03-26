@@ -26,4 +26,8 @@ export class ResultsComponent implements OnInit {
     }
   }
 
+  scrollToTop() {
+    window.scrollTo(0, 0);
+  }
+
 }

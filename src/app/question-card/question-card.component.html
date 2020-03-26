@@ -10,34 +10,26 @@
     </mat-card-header>
     <mat-card-content>
       <mat-grid-list cols="{{numOfCols}}" rowHeight="{{rowHeight}}">
-        <ng-container *ngIf="question.answers[0] && question.answers[0].length > 0">
           <mat-grid-tile>
-            <a id="q0" mat-flat-button [disabled]="loading" (click)="saveAnswer(0)" class="answer-button">
-              {{question.answers[0]}}
-            </a>
-          </mat-grid-tile>
-        </ng-container>
-        <ng-container *ngIf="question.answers[1] && question.answers[1].length > 0">
-          <mat-grid-tile>
-            <a id="q1" mat-flat-button [disabled]="loading" (click)="saveAnswer(1)" class="answer-button">
+            <a id="q0" mat-flat-button [disabled]="loading" (click)="saveAnswer(1)" class="answer-button">
               {{question.answers[1]}}
             </a>
           </mat-grid-tile>
-        </ng-container>
-        <ng-container *ngIf="question.answers[2] && question.answers[2].length > 0">
           <mat-grid-tile>
-            <a id="q2" mat-flat-button [disabled]="loading" (click)="saveAnswer(2)" class="answer-button">
+            <a id="q1" mat-flat-button [disabled]="loading" (click)="saveAnswer(2)" class="answer-button">
               {{question.answers[2]}}
             </a>
           </mat-grid-tile>
-        </ng-container>
-        <ng-container *ngIf="question.answers[3] && question.answers[3].length > 0">
+          <mat-grid-tile>
+            <a id="q2" mat-flat-button [disabled]="loading" (click)="saveAnswer(0)" class="answer-button">
+              {{question.answers[0]}}
+            </a>
+          </mat-grid-tile>
           <mat-grid-tile>
             <a id="q3" mat-flat-button [disabled]="loading" (click)="saveAnswer(3)" class="answer-button">
               {{question.answers[3]}}
             </a>
           </mat-grid-tile>
-        </ng-container>
       </mat-grid-list>
     </mat-card-content>
     <mat-card-actions>
