@@ -66,7 +66,8 @@ import { environment } from '../environments/environment';
     MatGridListModule,
     MatSidenavModule,
     MatExpansionModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

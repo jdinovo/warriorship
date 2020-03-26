@@ -41,7 +41,7 @@ export class QuestionCardComponent implements OnInit {
       this.questions.push(this.questionsList[random]);
     }
 
-    console.log(this.questions);
+    // console.log(this.questions);
     this.question = this.questions[0];
 
     // for adjusting button layout based on screen size
@@ -68,13 +68,13 @@ export class QuestionCardComponent implements OnInit {
     if (!this.loading) {
       this.loading = true;
       this.question.selectedAnswer = id;
-      console.log(this.points);
+      // console.log(this.points);
       this.points[id] += 1;
-      console.log(this.question);
+      // console.log(this.question);
       setTimeout(_ => {
         this.loading = false;
 
-        console.log(this.points);
+        // console.log(this.points);
 
         if (this.questions.indexOf(this.question) + 1 < this.questions.length) {
           this.question = this.questions[this.questions.indexOf(this.question) + 1];
