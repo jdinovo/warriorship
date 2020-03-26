@@ -73,6 +73,7 @@ export class QuestionCardComponent implements OnInit {
       // console.log(this.question);
       setTimeout(_ => {
         this.loading = false;
+        window.scrollTo(0, 0);
 
         // console.log(this.points);
 
