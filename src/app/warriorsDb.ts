@@ -4,16 +4,14 @@ export let WARRIORS: Warrior[] = [
   {
     title: 'Monk',
     image: 'assets/images/monk.jpg',
-    resultDescription: 'You are a monk at heart. You have a spiritual personality that nobody can deny. ' +
-      'When it comes to work, you do what is right without shortcuts. ' +
+    resultDescription: 'You are a monk at heart with your spiritual personality. ' +
+      'You work diligently without compromisedo what is right. ' +
       'You are self-entitled and live your life in complete happiness. ' +
-      'When it comes to difficult moments in your life, you understand that ' +
-      'you cannot control everything and that faith will take it\s course. ' +
-      'You are the one people come to for advice and they typically follow it. ' +
-      'People enjoy what you have to say and your communication skills ' +
-      'will help you no matter what stage of life you\'re in.',
+      'Difficult moments in your life, are welcomed as challenging, learning opportunites   since you believe only fate determines the outcomes.' +
+      'People seek your guidance and faithfully comply with your considered advice  ' +
+      'You are an effective communicator and your colourful orations have a profound and constructive impact on the masses.',
     aboutDescription: 'Monks date back all the way to BC. Despite being ' +
-      'internally enlightened beings, monks were attacked often and stolen of their possessions. ' +
+      'internally enlightened beings, monks were attacked often and robbed of their possessions. ' +
       'In 502 AD with the help of Bodiharma, he taught meditative postures resembling animals ' +
       'to the monks that would help them get into better physical condition. ' +
       'This form of early exercise led to the development of Kung Fu. ' +
@@ -65,20 +63,19 @@ export let WARRIORS: Warrior[] = [
     title: 'Samurai',
     image: 'assets/images/samurai.jpg',
     resultDescription: 'You are a samurai at heart. When it comes to group projects, you ' +
-      'are a team leader. You like to take control of everything happening in your life. ' +
-      'Sometimes this could be a disadvantage because let\'s face it, some things are out of your control. ' +
+      'are a natural team leader. You strive to take control of everything in your life, but this ' +
+      'could be a disadvantage in situations that are beyond your control. ' +
       'Your friends and family consider you an honourable and trusting person. ' +
-      'You like a challenge and work hard to overcome those tough times in your life and career. ' +
-      'Just like a samurai, you have a strong shell on the outside, but ' +
-      'sometimes you bottle your feelings inside and take it out on a loved one. ' +
-      'You are a risk taker who would rather live life to ' +
-      'the fullest than sitting at home watching TV.',
+      'You like a challenge and work hard to overcome obstacles in your life and career. ' +
+      'Your teflon exterior bottles your emotions which ultimately errupt onto loved ones. ' +
+      'You are a risk-taker who would rather live life to ' +
+      'the fullest than sit at home watching TV.',
     aboutDescription: 'Samurai\'s date back all the way to 1663. ' +
-      'Samurai\'s used to be servants who had no nobility but were rich, ' +
+      'Samurai\'s were servants with wealth but no nobility, ' +
       'which was a great benefit for the military since they lacked weapons and horses. ' +
       'They began winning battles and their legends grew. ' +
-      'Thus, their code; The Bushido (Way of the Warrior) was born. ' +
-      'The Bushido has been written by many respected and descendents of samurai over the centuries. ' +
+      'The Bushido (Way of the Warrior) is the Samuri code, ' +
+      'written by many respected descendents of samurai over the centuries. ' +
       'The code communicated a set of rules and guidelines ' +
       'pertaining to respect, loyalty, benevolence and courage. Samurais who lost their masters were known as Ronin'
   },
