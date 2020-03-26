@@ -1,7 +1,7 @@
 {
   "name": "Warriorship Quiz",
   "short_name": "Warriorship",
-  "theme_color": "#ff6e3f",
+  "theme_color": "#ff6e40",
   "background_color": "#37474F",
   "display": "standalone",
   "scope": "/",
