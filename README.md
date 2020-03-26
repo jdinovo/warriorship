@@ -1,27 +1,30 @@
-# Warriorship
+# [Warriorship Quiz](https://www.warriorship.codes/)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
+This informational quiz is a [PWA (Progressive Web Application)](https://web.dev/what-are-pwas/) made using Angular which can be installed on any device.
 
-## Development server
+![Warrior Logo](src/assets/icons/icon-192x192.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Installation Steps
 
-## Code scaffolding
+### iOS Devices
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Tap on the share menu icon ![Step 1 Image](docs/images/ios_step1.jpg)
 
-## Build
+2. Tap on the `Add to Home Screen` button ![Step 2 Image](docs/images/ios_step2.jpg)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+3. Tap on the `Add` button in the top right ![Step 3 Image](docs/images/ios_step3.jpg)
 
-## Running unit tests
+### Android Devices
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Tap on the `Add Warriorship to Home screen` banner ![Step 1 Image](docs/images/android_step1.jpg)
 
-## Running end-to-end tests
+2. Tap on the `Add` button in the bottom right ![Step 2 Image](docs/images/android_step2.jpg)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+3. Tap on the `Add Automatically` button in the bottom right ![Step 3 Image](docs/images/android_step3.jpg)
 
-## Further help
+### Computers Using Chrome Browser
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1. Click on the `+ Install` button in the top right ![Step 1 Image](docs/images/chrome_step1.jpg)
+
+2. Click on the `Install` button in the bottom right ![Step 2 Image](docs/images/chrome_step2.jpg)
+
