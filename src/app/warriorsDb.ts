@@ -5,9 +5,10 @@ export let WARRIORS: Warrior[] = [
     title: 'Monk',
     image: 'assets/images/monk.jpg',
     resultDescription: 'You are a monk at heart with your spiritual personality. ' +
-      'You work diligently without compromisedo what is right. ' +
+      'You work diligently without compromised what is right. ' +
       'You are self-entitled and live your life in complete happiness. ' +
-      'Difficult moments in your life, are welcomed as challenging, learning opportunites   since you believe only fate determines the outcomes.' +
+      'Difficult moments in your life, are welcomed as challenging, ' +
+      'learning opportunities since you believe only fate determines the outcomes.' +
       'People seek your guidance and faithfully comply with your considered advice  ' +
       'You are an effective communicator and your colourful orations have a profound and constructive impact on the masses.',
     aboutDescription: 'Monks date back all the way to BC. Despite being ' +
@@ -70,13 +71,12 @@ export let WARRIORS: Warrior[] = [
       'Your teflon exterior bottles your emotions which ultimately errupt onto loved ones. ' +
       'You are a risk-taker who would rather live life to ' +
       'the fullest than sit at home watching TV.',
-    aboutDescription: 'Samurai\'s date back all the way to 1663. ' +
-      'Samurai\'s were servants with wealth but no nobility, ' +
-      'which was a great benefit for the military since they lacked weapons and horses. ' +
-      'They began winning battles and their legends grew. ' +
-      'The Bushido (Way of the Warrior) is the Samuri code, ' +
+    aboutDescription: 'Samurai were an elite class of stoic warriors who put honour above all else dating back all the way to 1338. ' +
+      'They possessed an unwritten code which all samurai followed. This code was later written down and became known as ' +
+      'The Bushido (Way of the Warrior), ' +
       'written by many respected descendents of samurai over the centuries. ' +
+      'Upon dishonouring this code Samurai would commit ritual suicide known as seppuku (self-disembowelment). ' +
       'The code communicated a set of rules and guidelines ' +
-      'pertaining to respect, loyalty, benevolence and courage. Samurais who lost their masters were known as Ronin'
+      'pertaining to respect, loyalty, benevolence, and courage. Samurai who lost their masters were known as Ronin (Wandering Knight)'
   },
 ];
