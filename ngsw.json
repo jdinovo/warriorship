@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1585322799592,
+  "timestamp": 1585328600807,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,8 +11,8 @@
         "/browserconfig.xml",
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.c3382385d4b3cb9d1a71.js",
-        "/main-es5.c3382385d4b3cb9d1a71.js",
+        "/main-es2015.6f9898ab7696429a7609.js",
+        "/main-es5.6f9898ab7696429a7609.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.ca64e4516afbb1b890d5.js",
         "/polyfills-es5.1d087d4db6b105875851.js",
@@ -79,9 +79,9 @@
     "/assets/images/viking.jpg": "6ff07f2c3df1a5662137cd3f07624e0332f9a5f0",
     "/browserconfig.xml": "08904076c38d6cc3a12c6c5755d647af2898ef08",
     "/favicon.ico": "4667f12320d0898f6d582b0f00fce3d947fd36f3",
-    "/index.html": "d02dfd3474136b2e0b29eb5176bf40d662a5675a",
-    "/main-es2015.c3382385d4b3cb9d1a71.js": "27ce96ae635a6b195d3fb0ba296073b2cff459a9",
-    "/main-es5.c3382385d4b3cb9d1a71.js": "68fefdc4735cc87987e21aea7960750983e76278",
+    "/index.html": "fe2d9c7300448a1d128e75437be4eca43b6f44c6",
+    "/main-es2015.6f9898ab7696429a7609.js": "4b4f4e9ec3c04d1e0dcf1040d3a4711a3ebf435c",
+    "/main-es5.6f9898ab7696429a7609.js": "7a92a0ac0ab74dd6358e85117d8a6af05fe6b952",
     "/manifest.webmanifest": "7ebf7cec73a738eb703dd35add1627981bd87fcd",
     "/polyfills-es2015.ca64e4516afbb1b890d5.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
     "/polyfills-es5.1d087d4db6b105875851.js": "4abddf12647f54bb1475c72185db1835be2073ce",
