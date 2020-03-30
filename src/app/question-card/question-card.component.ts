@@ -34,9 +34,9 @@ export class QuestionCardComponent implements OnInit {
     this.questions = [];
 
     for (let i = 0; i < this.numOfQuestions; i++) {
-      let random = Math.floor((Math.random() * this.questionsList.length));
+      let random = Math.floor((Math.random() * (this.questionsList.length - 1)));
       while (this.questions.indexOf(this.questionsList[random]) !== -1) {
-        random = Math.floor((Math.random() * this.questionsList.length));
+        random = Math.floor((Math.random() * (this.questionsList.length - 1)));
       }
       this.questions.push(this.questionsList[random]);
     }

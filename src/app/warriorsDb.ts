@@ -11,12 +11,15 @@ export let WARRIORS: Warrior[] = [
       'learning opportunities since you believe only fate determines the outcomes.' +
       'People seek your guidance and faithfully comply with your considered advice  ' +
       'You are an effective communicator and your colourful orations have a profound and constructive impact on the masses.',
-    aboutDescription: 'Monks date back all the way to BC. Despite being ' +
-      'internally enlightened beings, monks were attacked often and robbed of their possessions. ' +
-      'In 502 AD with the help of Bodiharma, he taught meditative postures resembling animals ' +
-      'to the monks that would help them get into better physical condition. ' +
-      'This form of early exercise led to the development of Kung Fu. ' +
-      'The earliest postures resembling animals were based on: tiger, crane, leopard, snake and dragon. ',
+    aboutDescription: 'Monks are more Monks date back all the way to 495 BC when the Shaolin Temple was built. ' +
+      'In 502 AD, Bodiharma taught meditative movements resembling animals ' +
+      'to the monks in order help them get into better physical condition. ' +
+      'This form of early exercise led to the development of Kung Fu as ' +
+      'the monks needed a way to defend themselves from those who sought to harm and rob them. ' +
+      'They realized the movements taught by Bodiharma could be utilized in self-defence. ' +
+      'The movements of the Shaolin systems were originally based on five animals: tiger, crane, leopard, snake and dragon. ' +
+      'Later each of these systems branched off into others, and some systems were meshed ' +
+      'with others to create new ones each with their own nuances. ',
   },
   {
     title: 'Viking',
@@ -32,11 +35,16 @@ export let WARRIORS: Warrior[] = [
     aboutDescription: 'The fierce legends of Vikings being enormous, aggressive humans are not entirely inaccurate. ' +
       'Vikings were farmers in the early stages of their history, but ' +
       'had the ability to trade, hunt and fish as well. ' +
-      'Their secret ability however was constructing ships. ' +
+      'They had excellent carpentry and wood working skills, which ' +
+      'enabled them to build ships superior to any other vessels on the water at the time. ' +
+      'These ships were one of their greatest weapons with very strong hulls and symmetrical designs ' +
+      'which allowed them to change direction with ease. ' +
       'In the 8th century, Vikings began riding the waves on their superior ships ' +
       'and raiding different territories for food and supplies. ' +
       'They employed fear tactics with an abundance of noise as their strategy. ' +
-      'Eventually, different Viking tribes separated to modern day Iceland, Greenland and even Canada.',
+      'Eventually, different Viking tribes separated to modern day Iceland, Greenland and even Canada. ' +
+      'Unlike other explorers and expanding groups Vikings remained true to their ' +
+      'way of life and beliefs throughout each generation and did not adopt anything from other cultures.',
   },
   {
     title: 'Knight',
@@ -52,12 +60,18 @@ export let WARRIORS: Warrior[] = [
       'You have many life experiences and prefer to live life on the edge when necessary. ' +
       'One day, you will tell your beautiful stories to your future children and grandchildren.',
     aboutDescription: 'There is a plethora of information regarding different types ' +
-      'of knights and how they portrayed themselves. The Knecht Hospitaller, Knecht meaning laborer or servant, ' +
-      'would care for and protect patients at the Hospital of Saint John of Jerusalem in 1023. ' +
+      'of knights and how they portrayed themselves. The term Knight originally referred to a professional calvary man. ' +
+      'There are a few very well known groups of knights. ' +
+      'The Knecht Hospitaller, Knecht meaning laborer or servant, ' +
+      'would care for patients who became weak or ill on ' +
+      'their pilgrimage at the Hospital of Saint John of Jerusalem in 1023. ' +
       'These servants became The Order of Knights of the Hospital of Saint John of Jerusalem. ' +
-      'Their job was to protect people in the hospital, and eventually protect people traveling the roads. ' +
-      'The knights became Templars in 1119 and became immensely popular receiving ' +
-      'donations and and holding rich people\'s money when they travelled. ' +
+      'In 1099 after the first crusade they were armed to protect the patients in the hospital as well as ' +
+      'providing armed protection for pilgrims travelling to and from the Holy Land. ' +
+      'The Knights Hospitaller still exist today but are now known as the Knights of Malta. ' +
+      'The Templar Knights came into existence in 1119 and became immensely popular very quickly. ' +
+      'Their main purpose was protecting pilgrims travelling on public roads in the Holy Land. ' +
+      ' Eventually they began receiving donations and holding rich people\'s money when they travelled. ' +
       'This sort of transaction formally became a modern day bank.',
   },
   {
@@ -68,7 +82,7 @@ export let WARRIORS: Warrior[] = [
       'could be a disadvantage in situations that are beyond your control. ' +
       'Your friends and family consider you an honourable and trusting person. ' +
       'You like a challenge and work hard to overcome obstacles in your life and career. ' +
-      'Your teflon exterior bottles your emotions which ultimately errupt onto loved ones. ' +
+      'Your teflon exterior bottles your emotions which ultimately erupt onto loved ones. ' +
       'You are a risk-taker who would rather live life to ' +
       'the fullest than sit at home watching TV.',
     aboutDescription: 'Samurai were an elite class of stoic warriors who put honour above all else dating back all the way to 1338. ' +
@@ -77,6 +91,7 @@ export let WARRIORS: Warrior[] = [
       'written by many respected descendents of samurai over the centuries. ' +
       'Upon dishonouring this code Samurai would commit ritual suicide known as seppuku (self-disembowelment). ' +
       'The code communicated a set of rules and guidelines ' +
-      'pertaining to respect, loyalty, benevolence, and courage. Samurai who lost their masters were known as Ronin (Wandering Knight)'
+      'pertaining to respect, loyalty, benevolence, and courage. ' +
+      'When Samurai lose their masters would become known as Ronin (Wandering Knight).'
   },
 ];
