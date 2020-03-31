@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1585632018698,
+  "timestamp": 1585688247582,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,14 +11,14 @@
         "/browserconfig.xml",
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.efcc62706a13eeaf1a17.js",
-        "/main-es5.efcc62706a13eeaf1a17.js",
+        "/main-es2015.8db412b18b50782e8ee5.js",
+        "/main-es5.8db412b18b50782e8ee5.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.ca64e4516afbb1b890d5.js",
         "/polyfills-es5.1d087d4db6b105875851.js",
         "/runtime-es2015.0811dcefd377500b5b1a.js",
         "/runtime-es5.0811dcefd377500b5b1a.js",
-        "/styles.6fd0503af3ecde90e07d.css"
+        "/styles.61451ab0f389a7728815.css"
       ],
       "patterns": []
     },
@@ -79,15 +79,15 @@
     "/assets/images/viking.jpg": "6ff07f2c3df1a5662137cd3f07624e0332f9a5f0",
     "/browserconfig.xml": "08904076c38d6cc3a12c6c5755d647af2898ef08",
     "/favicon.ico": "4667f12320d0898f6d582b0f00fce3d947fd36f3",
-    "/index.html": "a3cec8b602a82f2506d89312dd781b91a19fb131",
-    "/main-es2015.efcc62706a13eeaf1a17.js": "b177d7d0ad149284b7704b9450691159d1f52a6b",
-    "/main-es5.efcc62706a13eeaf1a17.js": "43182b7c8d8e336aa3d1550e1023b315e0990b41",
+    "/index.html": "99d91b1c9611dc4d1d7bcfc1f981fbcbc6c37464",
+    "/main-es2015.8db412b18b50782e8ee5.js": "5e7f17ced96003e24158a6daaeca5c74817e7fe5",
+    "/main-es5.8db412b18b50782e8ee5.js": "8db10f3a91f0c22c11eeee21a97a50251a46cc3e",
     "/manifest.webmanifest": "7ebf7cec73a738eb703dd35add1627981bd87fcd",
     "/polyfills-es2015.ca64e4516afbb1b890d5.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
     "/polyfills-es5.1d087d4db6b105875851.js": "4abddf12647f54bb1475c72185db1835be2073ce",
     "/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/styles.6fd0503af3ecde90e07d.css": "29c9351c3a060161dbf2e50832301578efd7f329"
+    "/styles.61451ab0f389a7728815.css": "3aaab28da5170a0c5872ba3a98a7776b0c18d055"
   },
   "navigationUrls": [
     {
