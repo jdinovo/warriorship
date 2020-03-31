@@ -4,79 +4,80 @@ export let WARRIORS: Warrior[] = [
   {
     title: 'Monk',
     image: 'assets/images/monk.jpg',
-    resultDescription: 'You are a monk at heart with your spiritual personality. ' +
-      'You work diligently without compromisedo what is right. ' +
-      'You are self-entitled and live your life in complete happiness. ' +
-      'Difficult moments in your life, are welcomed as challenging, learning opportunites   since you believe only fate determines the outcomes.' +
-      'People seek your guidance and faithfully comply with your considered advice  ' +
-      'You are an effective communicator and your colourful orations have a profound and constructive impact on the masses.',
-    aboutDescription: 'Monks date back all the way to BC. Despite being ' +
-      'internally enlightened beings, monks were attacked often and robbed of their possessions. ' +
-      'In 502 AD with the help of Bodiharma, he taught meditative postures resembling animals ' +
-      'to the monks that would help them get into better physical condition. ' +
-      'This form of early exercise led to the development of Kung Fu. ' +
-      'The earliest postures resembling animals were based on: tiger, crane, leopard, snake and dragon. ',
+    resultDescription: 'Gliding through life as a warm, summer breeze, your spiritual essence promotes a pervasive ' +
+      'calm over all social interactions, ensuring peaceful outcomes, even in volatile confrontations. Difficult ' +
+      'moments in life are welcomed as intellectual challenges with opportunities to find grace, since you believe ' +
+      'life is pre-ordained. You are an effective communicator, and your colourful orations have a profound and ' +
+      'constructive impact on the masses. People seek your compassionate guidance, and faithfully comply with your ' +
+      'considered advice. You are generous to fault, working quietly and diligently without compromise, to fulfill ' +
+      'all self-imposed responsibilities, often at great expense to your personal well-being.',
+    aboutDescription: 'Monks practice religious asceticism, abstaining from sensual pleasure in the pursuit of ' +
+      'spirituality, and living their lives in absolute solitude or only in the company of other monks. Monks ' +
+      'originated in 495 BC, with the construction of the Shaolin Temple. In 502 AD, Bodhidharma, a Buddhist monk ' +
+      'from India, taught meditative postures resembling animals to the monks, in order to improve their physical ' +
+      'conditioning. This early form of formal, structured exercise evolved into the development of Kung Fu, as ' +
+      'the monks required effective self defence, to protect themselves from predators, who sought to harm and ' +
+      'rob them. The Shaolin Kung Fu systems of postures and movements were originally based on five animals: ' +
+      'tiger, crane, leopard, snake, and dragon.',
   },
   {
     title: 'Viking',
     image: 'assets/images/viking.jpg',
-    resultDescription: 'You are a viking at heart. When your mind is set on a goal, ' +
-      'you will stop at nothing to achieve it. You have a drive unlike no other, ' +
-      'although sometimes you make irrational decisions. ' +
-      'When faced with adversity, you resort to peace over violence, but you\'re not ' +
-      'afraid to stand up for yourself when push comes to shove. ' +
-      'Just like the vikings, you are artistically inclined and follow the model ' +
-      '"work smarter, not harder". You are a tough cookie and you\'re not afraid to get your hands ' +
-      'dirty in the trenches. You will be successful in life if you keep working hard.',
-    aboutDescription: 'The fierce legends of Vikings being enormous, aggressive humans are not entirely inaccurate. ' +
-      'Vikings were farmers in the early stages of their history, but ' +
-      'had the ability to trade, hunt and fish as well. ' +
-      'Their secret ability however was constructing ships. ' +
-      'In the 8th century, Vikings began riding the waves on their superior ships ' +
-      'and raiding different territories for food and supplies. ' +
-      'They employed fear tactics with an abundance of noise as their strategy. ' +
-      'Eventually, different Viking tribes separated to modern day Iceland, Greenland and even Canada.',
+    resultDescription: 'The Viking spirit is overwhelming and often intimidating, with your brawny physicality ' +
+      'and bravado. Your presentation is tactically strategic. Unbridled hubris, you feel no need for questions ' +
+      'or clarity. You are reactive and impulsive, but you consistently and reliably get the task done, at any cost. ' +
+      'Life is a zero-sum game and “winner-takes-all”. Most days are pure high-octane, adrenaline-induced thrill ' +
+      'rides, but some friends and family find your volatility more terrifying than exciting.',
+    aboutDescription: 'The compelling and violent legends, of the formidably fierce Vikings, are not entirely ' +
+      'accurate. Norsemen were farmers in the early stages of their history, who would trade, hunt and fish, ' +
+      'as well. Vikings had excellent design, carpentry and engineering skills, and constructed symmetrical, ' +
+      'strong ships, with the ability to swiftly change their bearings alter course. These massive vessels were ' +
+      'superior to any other on water, at the time, and provided the Vikings’ greatest tactical advantage. ' +
+      'Viking fleets were embellished with ominous designs and intimidating mythological characters and symbols, ' +
+      'complimented by terrifying battle cries, to instil fear and panic in their adversaries, which escalated ' +
+      'with each successive invasion. In the 8th century, Vikings began riding the ocean waves on their superior ' +
+      'ships, and raiding ever more distant territories, for land, treasure, food and supplies. Eventually, ' +
+      'different Viking tribes separated and dispersed to modern day Iceland, Greenland and even Canada. Unlike ' +
+      'other explorers and disseminating races, Vikings remained true to their way of life and beliefs, ' +
+      'throughout each generation.',
   },
   {
     title: 'Knight',
     image: 'assets/images/knight.jpg',
-    resultDescription: 'You are a knight at heart. You can be ' +
-      'very simple but sometimes very complex as well. ' +
-      'You faced some tough decisions as a child that may have psychologically affected you, ' +
-      'and for that reason you are a stronger person today. ' +
-      'Just like a knight, you believe in what is right and you fight for it. ' +
-      'You are a family person at heart and would do anything for them. ' +
-      'Be careful, you have a tendency to lose your temper and get a little hot headed. ' +
-      'Every day you learn something new and use your new found knowledge to better yourself. ' +
-      'You have many life experiences and prefer to live life on the edge when necessary. ' +
-      'One day, you will tell your beautiful stories to your future children and grandchildren.',
-    aboutDescription: 'There is a plethora of information regarding different types ' +
-      'of knights and how they portrayed themselves. The Knecht Hospitaller, Knecht meaning laborer or servant, ' +
-      'would care for and protect patients at the Hospital of Saint John of Jerusalem in 1023. ' +
-      'These servants became The Order of Knights of the Hospital of Saint John of Jerusalem. ' +
-      'Their job was to protect people in the hospital, and eventually protect people traveling the roads. ' +
-      'The knights became Templars in 1119 and became immensely popular receiving ' +
-      'donations and and holding rich people\'s money when they travelled. ' +
-      'This sort of transaction formally became a modern day bank.',
+    resultDescription: 'Agile and situationally adept, your suave knightly comportment commands respect, ' +
+      'humbling all in your noble presence. Confrontation is a complex yet seductive dance, elaborately ' +
+      'choreographed with each element researched and analyzed to the infinite minutiae. Effervescent ' +
+      'charisma and gilded fancy footwork, scintillating hypnotic, distract while the deft slight-of-hand ' +
+      'deals the lethal blow. Hero to all, even your formidable foes fall in awe, acknowledging defeat with ' +
+      'a bemused smirk.',
+    aboutDescription: 'Knight originally referred to professional calvary men. The Knecht Hospitaller and ' +
+      'The Knights Templar were well-known rivals with a colourful history. In 1023, the Knecht Hospitaller ' +
+      'were labourers or servants at the Hospital of Saint John of Jerusalem, caring for holy pilgrims who ' +
+      'became weak or ill. The Knecht Hospitaller transformed into the Order of Knights of the Hospital of ' +
+      'Saint John of Jerusalem, after the first crusade in 1099, armed to protect the patients in the ' +
+      'hospital, as well as pilgrims travelling to and from the Holy Land. Today they are known as the ' +
+      'Knights of Malta. The Templar Knights came into existence in 1119, and quickly grew immensely ' +
+      'popular, receiving donations and securing the wealth of rich, powerful, and influential people ' +
+      'when they travelled. These transactions formally evolved into modern banking.',
   },
   {
     title: 'Samurai',
     image: 'assets/images/samurai.jpg',
-    resultDescription: 'You are a samurai at heart. When it comes to group projects, you ' +
-      'are a natural team leader. You strive to take control of everything in your life, but this ' +
-      'could be a disadvantage in situations that are beyond your control. ' +
-      'Your friends and family consider you an honourable and trusting person. ' +
-      'You like a challenge and work hard to overcome obstacles in your life and career. ' +
-      'Your teflon exterior bottles your emotions which ultimately errupt onto loved ones. ' +
-      'You are a risk-taker who would rather live life to ' +
-      'the fullest than sit at home watching TV.',
-    aboutDescription: 'Samurai\'s date back all the way to 1663. ' +
-      'Samurai\'s were servants with wealth but no nobility, ' +
-      'which was a great benefit for the military since they lacked weapons and horses. ' +
-      'They began winning battles and their legends grew. ' +
-      'The Bushido (Way of the Warrior) is the Samuri code, ' +
-      'written by many respected descendents of samurai over the centuries. ' +
-      'The code communicated a set of rules and guidelines ' +
-      'pertaining to respect, loyalty, benevolence and courage. Samurais who lost their masters were known as Ronin'
+    resultDescription: 'Honour is the only exacting criteria by which all your thoughts and actions are ' +
+      'evaluated, outcomes are irrelevant. Winning is the journey, not the destination. You like a ' +
+      'challenge and tenaciously toil to overcome any and all obstacles. A natural team leader, ' +
+      'you strive to control everything in your life, even in situations that are beyond your ' +
+      'control. You are frugal, but your honour is priceless, never to be bartered or sold. ' +
+      'Uncompromising, it must be a honourable life, or no life at all. Surely, you must ' +
+      'recognize these lofty ideals, excessive standards, and exceptional goals, are often unattainable. ' +
+      'A teflon exterior belies your perpetually discordant, internalized stress —an emotional volcano ' +
+      'percolating on the precipice of eruption.',
+    aboutDescription: 'Samurai were an elite class of stoic warriors, dating back to 1338, ' +
+      'who valued honour above all else. All samurai were mandated to comply with an unwritten code. ' +
+      'This code was eventually scribed over the centuries, accumulating contributions from the many ' +
+      'esteemed descendants of original Samurai. This Bushido (Way of the Warrior) was a set of rules ' +
+      'and guidelines delineating the behaviour criteria for respect, loyalty, benevolence, and courage. ' +
+      'Upon dishonouring this code, Samurai would commit ritual suicide, known as Seppuku (self-disembowelment). ' +
+      'Samurai who lost their masters were known as Ronin (Wandering Knight).'
   },
 ];
