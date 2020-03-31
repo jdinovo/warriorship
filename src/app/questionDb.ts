@@ -2,66 +2,69 @@ import {Question} from './question-helper';
 
 export let QUESTIONS: Question[] = [
   {
-    question: 'Which is your weapon of choice?',
+    question: 'My preferred weapon of choice in conflict:',
     answers: ['Compassion', 'Axe', 'Sword', 'Negotiation']
   },
   {
-    question: 'What is your favourite sport?',
-    answers: ['Soccer', 'Football', 'Hockey', 'Martial Arts']
+    question: 'My favourite sport:',
+    answers: ['Tai Chi', 'MMA', 'Fencing', 'Archery']
   },
   {
-    question: 'Which quality best describes you?',
-    answers: ['Passionate', 'Athletic', 'Creative', 'Intelligent']
+    question: 'The quality which best describes me:',
+    answers: ['Passionate', 'Intrepid', 'Noble', 'Stoic']
   },
   {
-    question: 'Which is your greatest weakness?',
-    answers: ['Insecure', 'Volatile', 'Narcissistic', 'Arrogant']
+    question: 'My favourite music genre:',
+    answers: ['New Age', 'Heavy Metal', 'Rock & Roll', 'Classical']
   },
   {
-    question: 'What is your favourite type of music?',
-    answers: ['Jazz', 'Heavy Metal', 'Hip-Hop', 'Classical']
+    question: 'The colour which best reflects my response to a challenge:',
+    answers: ['', '', '', '']
   },
   {
-    question: 'What is your favourite movie genre?',
-    answers: ['Romance', 'Horror', 'Action', 'Mystery']
+    question: 'My strategy when someone initiates an argument:',
+    answers: ['Deference', 'Assault', 'Engage', 'Depart']
   },
   {
-    question: 'Somebody starts an argument, your strategy is:',
-    answers: ['Deference', 'Assault', 'Engage in the argument', 'Leave']
+    question: 'When making a critical decision, I usually follow',
+    answers: ['My heart', 'An impulse', 'The leader', 'My intuition']
   },
   {
-    question: 'What do you usually follow?',
-    answers: ['Your heart', 'Your impulse', 'The leader', 'Your mind']
+    question: 'The Superhero power I wish I could have:',
+    answers: ['Healing', 'Invincibility', 'Clairvoyance', 'Mentifery']
   },
   {
-    question: 'Which superhero power would you rather have?',
-    answers: ['Ability to heal others', 'Invincibility', 'Telekinesis', 'Foresight']
+    question: 'The consequence to someone caught stealing should be:',
+    answers: ['Community service', 'Corporeal punishment', 'Monetary fine', 'Counselling and education']
   },
   {
-    question: 'A man is caught stealing from the market, what should happen to him?',
-    answers: ['Have him serve those from whom he stole', 'Off with his head',
-      'Fine him double the value of the goods', 'Counselling and education']
+    question: 'If I am outnumbered in a confrontation and face almost certain defeat, I would',
+    answers: ['Surrender', 'Fight until death',
+      'Strategically out-maneuver my enemy, to avoid direct conflict', 'Retreat, and reformulate my strategy']
   },
   {
-    question: 'You are outnumbered and face almost certain defeat, what do you do?',
-    answers: ['Surrender', 'Fight on until your last breath',
-      'Manipulate your enemy to avoid direct conflict', 'Fallback and reformulate your strategy']
-  },
-  {
-    question: 'You witness a stranger being attacked and in dire need of assistance, what do you do',
+    question: 'If I witness a stranger being attacked, and in dire need of assistance, I would ...',
     answers: ['Call for help', 'Slay the assailants',
-      'Intimidate assailants into retreat', 'Distract the assailants so the victim may flee']
+      'Intimidate the assailants into retreat', 'Distract the assailants, so the victim may flee']
   },
   {
-    question: '_______ is mightier than the sword',
-    answers: ['The heart', 'Nothing', 'The shield', 'The pen']
+    question: '_______ mightier than the sword',
+      answers: ['The heart is', 'I am', 'The shield is', 'The pen is']
   },
   {
-    question: 'Which archetype best represents your personality?',
+    question: 'The archetype which best represents my personality:',
     answers: ['Caregiver', 'Rebel', 'Hero', 'Sage']
   },
   {
-    question: 'Which colour best describes how you feel when confronted with challenge?',
-    answers: ['', '', '', '']
+    question: 'My favourite movie genre:',
+    answers: ['Romance', 'Horror', 'Action', 'Mystery']
+  },
+  {
+    question: 'The personality trait I need to improve:',
+    answers: ['Insecure', 'Volatile', 'Narcissistic', 'Arrogant']
+  },
+  {
+    question: 'The critical element essential to success in my life:',
+    answers: ['Faith', 'Strength', 'Respect', 'Honour']
   }
 ];

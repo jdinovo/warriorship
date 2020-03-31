@@ -1,6 +1,6 @@
 # [Warriorship Quiz](https://www.warriorship.codes/)
 
-This informational quiz is a [PWA (Progressive Web Application)](https://web.dev/what-are-pwas/) made using [Angular](https://angular.io) which can be viewed in a web browser or installed on any device. Each time the quiz is started 10 questions are selected from a pool. Upon completion, the user learns what kind of warrior they are and has the opportunity to share this information via Facebook or Twitter. 
+This informational quiz is a [PWA (Progressive Web Application)](https://web.dev/what-are-pwas/) made using [Angular](https://angular.io) which can be viewed in a web browser or installed on any device for use offline. Each time the quiz begins, 10 questions are selected from a pool. Upon completion, the user learns what kind of warrior they are and has the opportunity to share this information with friends via Facebook or Twitter. 
 
 ![Warrior Logo](src/assets/icons/icon-192x192.png)
 
@@ -12,7 +12,7 @@ This informational quiz is a [PWA (Progressive Web Application)](https://web.dev
 
    ![Step 1 Image](docs/images/ios_step1.jpg)
 
-2. Tap on the `Add to Home Screen` button
+2. Tap on the `Add to Home Screen` button (you may have to scroll down)
  
    ![Step 2 Image](docs/images/ios_step2.jpg)
 
