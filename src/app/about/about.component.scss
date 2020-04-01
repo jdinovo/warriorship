@@ -1,4 +1,4 @@
-.out-card {
+mat-card {
   max-width: 50%;
   display: block;
   margin: 0 auto 10px;
@@ -24,14 +24,17 @@ p {
   padding: 0;
 }
 
-
-
 #attribution {
+  font-size: 1em;
   text-align: right !important;
 }
 
+mat-panel-title, mat-card-title, .highlight {
+  color: #ff6e40;
+}
+
 @media only screen and (max-width: 980px) {
-  .out-card {
+  mat-card {
     max-width: 90%;
   }
 }
