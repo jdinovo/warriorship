@@ -9,7 +9,7 @@ export let WARRIORS: Warrior[] = [
       'moments in life are welcomed as intellectual challenges with opportunities to find grace, since you believe ' +
       'life is pre-ordained. You are an effective communicator, and your colourful orations have a profound and ' +
       'constructive impact on the masses. People seek your compassionate guidance, and faithfully comply with your ' +
-      'considered advice. You are generous to fault, working quietly and diligently without compromise, to fulfill ' +
+      'considered advice. You are generous to a fault, working quietly and diligently without compromise, to fulfill ' +
       'all self-imposed responsibilities, often at great expense to your personal well-being.',
     aboutDescription: 'Monks practice religious asceticism, abstaining from sensual pleasure in the pursuit of ' +
       'spirituality, and living their lives in absolute solitude or only in the company of other monks. Monks ' +
@@ -23,7 +23,7 @@ export let WARRIORS: Warrior[] = [
   {
     title: 'Viking',
     image: 'assets/images/viking.jpg',
-    resultDescription: 'The Viking spirit is overwhelming and often intimidating, with your brawny physicality ' +
+    resultDescription: 'The Viking spirit is often overwhelming and intimidating, with your brawny physicality ' +
       'and bravado. Your presentation is tactically strategic. Unbridled hubris, you feel no need for questions ' +
       'or clarity. You are reactive and impulsive, but you consistently and reliably get the task done, at any cost. ' +
       'Life is a zero-sum game and “winner-takes-all”. Most days are pure high-octane, adrenaline-induced thrill ' +
@@ -31,7 +31,7 @@ export let WARRIORS: Warrior[] = [
     aboutDescription: 'The compelling and violent legends, of the formidably fierce Vikings, are not entirely ' +
       'accurate. Norsemen were farmers in the early stages of their history, who would trade, hunt and fish, ' +
       'as well. Vikings had excellent design, carpentry and engineering skills, and constructed symmetrical, ' +
-      'strong ships, with the ability to swiftly change their bearings alter course. These massive vessels were ' +
+      'strong ships, with the ability to swiftly change their bearings and alter course. These massive vessels were ' +
       'superior to any other on water, at the time, and provided the Vikings’ greatest tactical advantage. ' +
       'Viking fleets were embellished with ominous designs and intimidating mythological characters and symbols, ' +
       'complimented by terrifying battle cries, to instil fear and panic in their adversaries, which escalated ' +
@@ -50,13 +50,13 @@ export let WARRIORS: Warrior[] = [
       'charisma and gilded fancy footwork, scintillating hypnotic, distract while the deft slight-of-hand ' +
       'deals the lethal blow. Hero to all, even your formidable foes fall in awe, acknowledging defeat with ' +
       'a bemused smirk.',
-    aboutDescription: 'Knight originally referred to professional calvary men. The Knecht Hospitaller and ' +
+    aboutDescription: 'Knight originally referred to a professional calvary man. The Knecht Hospitaller and ' +
       'The Knights Templar were well-known rivals with a colourful history. In 1023, the Knecht Hospitaller ' +
       'were labourers or servants at the Hospital of Saint John of Jerusalem, caring for holy pilgrims who ' +
       'became weak or ill. The Knecht Hospitaller transformed into the Order of Knights of the Hospital of ' +
       'Saint John of Jerusalem, after the first crusade in 1099, armed to protect the patients in the ' +
       'hospital, as well as pilgrims travelling to and from the Holy Land. Today they are known as the ' +
-      'Knights of Malta. The Templar Knights came into existence in 1119, and quickly grew immensely ' +
+      'Knights of Malta. The Knights Templar originated in 1119, and quickly grew immensely ' +
       'popular, receiving donations and securing the wealth of rich, powerful, and influential people ' +
       'when they travelled. These transactions formally evolved into modern banking.',
   },
@@ -64,7 +64,7 @@ export let WARRIORS: Warrior[] = [
     title: 'Samurai',
     image: 'assets/images/samurai.jpg',
     resultDescription: 'Honour is the only exacting criteria by which all your thoughts and actions are ' +
-      'evaluated, outcomes are irrelevant. Winning is the journey, not the destination. You like a ' +
+      'evaluated; outcomes are irrelevant. Winning is the journey, not the destination. You embrace a ' +
       'challenge and tenaciously toil to overcome any and all obstacles. A natural team leader, ' +
       'you strive to control everything in your life, even in situations that are beyond your ' +
       'control. You are frugal, but your honour is priceless, never to be bartered or sold. ' +
