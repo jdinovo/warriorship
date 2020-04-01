@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuestionCardComponent } from './question-card/question-card.component';
 import {HomepageComponent} from './homepage/homepage.component';
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import {MatButtonModule} from '@angular/material/button';
@@ -44,19 +43,10 @@ import { environment } from '../environments/environment';
   ],
   imports: [
     BrowserModule,
-    FlexLayoutModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
     MatListModule,
-    RouterModule.forRoot([
-      {path: '', component: HomepageComponent},
-      {path: 'quiz', component: QuestionCardComponent},
-      {path: 'results', component: ResultsComponent},
-      {path: 'credits', component: CreditsComponent},
-      {path: 'about', component: AboutComponent},
-      {path: '**', component: NotFoundComponent}
-    ]),
     HttpClientModule,
     MatIconModule,
     MatCardModule,
