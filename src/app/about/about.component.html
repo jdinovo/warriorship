@@ -17,7 +17,7 @@
           <mat-list-item role="listitem">Recognizes that their abilities carry with them a responsibility</mat-list-item>
           <mat-list-item role="listitem">Trains diligently in the arts and sciences of survival and defense</mat-list-item>
         </mat-list>
-        <p>Prof./Sifu Jay McCoy</p>
+        <p id="attribution">Prof./Sifu Jay McCoy</p>
       </mat-card-content>
     </mat-card>
   </mat-card-content>
@@ -41,12 +41,12 @@
             {{warrior.title}}
           </mat-panel-title>
           <mat-panel-description>
-
+            Information
           </mat-panel-description>
         </mat-expansion-panel-header>
         <ng-template matExpansionPanelContent>
           <img mat-card-image [src]="warrior.image" alt="An image of a {{warrior.title}}" />
-          {{warrior.aboutDescription}}
+          <p>{{warrior.aboutDescription}}</p>
         </ng-template>
       </mat-expansion-panel>
     </mat-accordion>

@@ -1,6 +1,6 @@
-# [Warriorship Quiz](https://www.warriorship.codes/)
+# [Warriorship Quiz](https://jdinovo.github.io/warriorship)
 
-This informational quiz is a [PWA (Progressive Web Application)](https://web.dev/what-are-pwas/) made using [Angular](https://angular.io) which can be viewed in a web browser or installed on any device for use offline. Each time the quiz begins, 10 questions are selected from a pool. Upon completion, the user learns what kind of warrior they are and has the opportunity to share this information with friends via Facebook or Twitter. 
+This informational quiz is a [PWA (Progressive Web Application)](https://web.dev/what-are-pwas/) made using [Angular](https://angular.io) which can be viewed in a web browser or installed on any device for use offline making it extremely versatile and accessible to anyone. Each time the quiz begins, 10 questions are selected from a pool. Upon completion, the user learns what kind of warrior they are and has the opportunity to share this information with friends via Facebook or Twitter. 
 
 ![Warrior Logo](src/assets/icons/icon-192x192.png)
 
@@ -47,4 +47,3 @@ ___
 2. Click on the `Install` button in the bottom right 
 
    ![Step 2 Image](docs/images/chrome_step2.jpg)
-
