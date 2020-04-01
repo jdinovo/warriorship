@@ -1,6 +1,6 @@
 # [Warriorship Quiz](https://jdinovo.github.io/warriorship)
 
-This informational quiz is a [PWA (Progressive Web Application)](https://web.dev/what-are-pwas/) made using [Angular](https://angular.io) which can be viewed in a web browser or installed on any device for use offline making it extremely versatile and accessible to anyone. Each time the quiz begins, 10 questions are selected from a pool. Upon completion, the user learns what kind of warrior they are and has the opportunity to share this information with friends via Facebook or Twitter. 
+This informational quiz is a [PWA (Progressive Web Application)](https://web.dev/what-are-pwas/) created using [Angular](https://angular.io). It can be viewed in a web browser or installed on any device for use offline, making it exceptionally versatile and accessible to anyone. There are four warriors delineated in this warriorship quiz: Monk, Viking, Knight, or Samurai, with their own unique cluster of characteristics and preferences. The about page provides brief descriptions including historical context for each warrior. Each time the quiz is initiated, ten questions are randomly populated from the question pool. Upon completion, the user learns what kind of warrior they may be, with the opportunity to share their results with friends via Facebook or Twitter. 
 
 ![Warrior Logo](src/assets/icons/icon-192x192.png)
 
