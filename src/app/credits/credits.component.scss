@@ -4,6 +4,10 @@ mat-card {
   margin: 0 auto;
 }
 
+mat-card-title {
+  color: #ff6e40;
+}
+
 @media only screen and (max-width: 980px) {
   mat-card {
     max-width: 90%;
