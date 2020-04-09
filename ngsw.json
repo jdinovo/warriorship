@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1586116725997,
+  "timestamp": 1586407090053,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -79,7 +79,7 @@
     "/assets/images/viking.jpg": "6ff07f2c3df1a5662137cd3f07624e0332f9a5f0",
     "/browserconfig.xml": "08904076c38d6cc3a12c6c5755d647af2898ef08",
     "/favicon.ico": "4667f12320d0898f6d582b0f00fce3d947fd36f3",
-    "/index.html": "facddd6cd3d4ebe0463e599e749bd3ce5f6e2f6b",
+    "/index.html": "553a36b740fc1379c5fd031c57c0f5c2bfed8446",
     "/main-es2015.4f744bd00860ec7fca40.js": "89f8945e6eea51f9c805b262ed789e37d02fa8c4",
     "/main-es5.4f744bd00860ec7fca40.js": "0f5723e3e601d523bf345cd8436e72bf0aa26fbf",
     "/manifest.webmanifest": "7ebf7cec73a738eb703dd35add1627981bd87fcd",
