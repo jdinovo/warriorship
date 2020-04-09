@@ -35,7 +35,7 @@ export let QUESTIONS: Question[] = [
   },
   {
     question: 'The consequence to someone caught stealing should be:',
-    answers: ['Counselling and education', 'Corporeal punishment', 'Monetary fine', 'Community service']
+    answers: ['Counselling and education', 'Corporal punishment', 'Monetary fine', 'Community service']
   },
   {
     question: 'If I am outnumbered in a confrontation and face almost certain defeat, I would',
