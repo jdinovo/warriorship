@@ -47,3 +47,5 @@ ___
 2. Click on the `Install` button in the bottom right 
 
    ![Step 2 Image](docs/images/chrome_step2.jpg)
+
+:copyright: 2020 James DiNovo All Rights Reserved.
