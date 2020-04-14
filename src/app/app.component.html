@@ -4,7 +4,7 @@
     <mat-toolbar color="primary">
       <mat-toolbar-row>
         <span>
-          <button mat-icon-button disableRipple (click)="sidenav.toggle()"><mat-icon>{{sidenav.opened ? 'close' : 'menu'}}</mat-icon></button>
+          <button mat-icon-button disableRipple (click)="sidenav.toggle()"><mat-icon>{{!sidenav.opened ? 'menu' : 'close'}}</mat-icon></button>
         </span>
         <h1>Warriorship</h1>
       </mat-toolbar-row>
@@ -14,17 +14,17 @@
     <mat-sidenav fixedTopGap="56" fixedInViewport #sidenav>
       <mat-nav-list>
         <mat-list-item routerLink="/" style="height: 0; position: absolute"></mat-list-item><!-- consuming weird highlight of first element behaviour -->
-        <mat-list-item routerLink="/" routerLinkActive (click)="sidenav.close()">
+        <mat-list-item routerLink="/" routerLinkActive (click)="sidenav.close(); scrollToTop()">
           <mat-icon matListIcon svgIcon="warrior"></mat-icon>
           <h3 matLine>Quiz</h3>
         </mat-list-item>
         <mat-divider></mat-divider>
-        <mat-list-item routerLink="/about" routerLinkActive (click)="sidenav.close()">
+        <mat-list-item routerLink="/about" routerLinkActive (click)="sidenav.close(); scrollToTop()">
           <mat-icon matListIcon>menu_book</mat-icon>
           <h3 matLine>About</h3>
         </mat-list-item>
         <mat-divider></mat-divider>
-        <mat-list-item routerLink="/credits" routerLinkActive (click)="sidenav.close()">
+        <mat-list-item routerLink="/credits" routerLinkActive (click)="sidenav.close(); scrollToTop()">
           <mat-icon matListIcon>web</mat-icon>
           <h3 matLine>Credits</h3>
         </mat-list-item>
