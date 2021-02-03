@@ -1,24 +1,27 @@
 {
   "configVersion": 1,
-  "timestamp": 1586407090053,
+  "timestamp": 1612330045685,
   "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "/browserconfig.xml",
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.4f744bd00860ec7fca40.js",
-        "/main-es5.4f744bd00860ec7fca40.js",
+        "/main-es2015.5feed8a8619cf7592dcf.js",
+        "/main-es5.5feed8a8619cf7592dcf.js",
         "/manifest.webmanifest",
-        "/polyfills-es2015.ca64e4516afbb1b890d5.js",
-        "/polyfills-es5.1d087d4db6b105875851.js",
-        "/runtime-es2015.0811dcefd377500b5b1a.js",
-        "/runtime-es5.0811dcefd377500b5b1a.js",
-        "/styles.32760854c3949a48cfa5.css"
+        "/polyfills-es2015.1840f71315b0aadb1f47.js",
+        "/polyfills-es5.83b6d0d5221eb68f877e.js",
+        "/runtime-es2015.a4dadbc03350107420a4.js",
+        "/runtime-es5.a4dadbc03350107420a4.js",
+        "/styles.7f07e25f2017f534589d.css"
       ],
       "patterns": []
     },
@@ -26,6 +29,9 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "/assets/icons/apple-touch-icon.png",
         "/assets/icons/favicon-16x16.png",
@@ -51,6 +57,9 @@
       "name": "fonts",
       "installMode": "prefetch",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
@@ -79,15 +88,15 @@
     "/assets/images/viking.jpg": "6ff07f2c3df1a5662137cd3f07624e0332f9a5f0",
     "/browserconfig.xml": "08904076c38d6cc3a12c6c5755d647af2898ef08",
     "/favicon.ico": "4667f12320d0898f6d582b0f00fce3d947fd36f3",
-    "/index.html": "553a36b740fc1379c5fd031c57c0f5c2bfed8446",
-    "/main-es2015.4f744bd00860ec7fca40.js": "89f8945e6eea51f9c805b262ed789e37d02fa8c4",
-    "/main-es5.4f744bd00860ec7fca40.js": "0f5723e3e601d523bf345cd8436e72bf0aa26fbf",
+    "/index.html": "00feaac4418c11dda50731af3c43e775eb984976",
+    "/main-es2015.5feed8a8619cf7592dcf.js": "12b65ac52adfe499a99297b711827ccc9e15b270",
+    "/main-es5.5feed8a8619cf7592dcf.js": "d1f4899a5b00ef0d0387f629edf65b13fcbed175",
     "/manifest.webmanifest": "7ebf7cec73a738eb703dd35add1627981bd87fcd",
-    "/polyfills-es2015.ca64e4516afbb1b890d5.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
-    "/polyfills-es5.1d087d4db6b105875851.js": "4abddf12647f54bb1475c72185db1835be2073ce",
-    "/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/styles.32760854c3949a48cfa5.css": "83ee055a07b9223f98af73da87075dd034704ea2"
+    "/polyfills-es2015.1840f71315b0aadb1f47.js": "c0bfc31b431b81064dd1537bc990cd6352b0d36d",
+    "/polyfills-es5.83b6d0d5221eb68f877e.js": "1e1e5ce31936d1336e89f97f751c196006b88f88",
+    "/runtime-es2015.a4dadbc03350107420a4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/runtime-es5.a4dadbc03350107420a4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.7f07e25f2017f534589d.css": "40796d303cbad484129e422c26d20ca62c8a5ef9"
   },
   "navigationUrls": [
     {
@@ -106,5 +115,6 @@
       "positive": false,
       "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
-  ]
+  ],
+  "navigationRequestStrategy": "performance"
 }
